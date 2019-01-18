@@ -1,0 +1,652 @@
+{
+  "error": {
+    "code": 500,
+    "message": "Internal Server Error",
+    "exception": [
+      {
+        "message": "An exception occurred while executing 'INSERT INTO dishes_ingredients (dishes_id, ingredients_id) VALUES (?, ?)' with params [9, 3]:\n\nSQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '9-3' for key 'PRIMARY'",
+        "class": "Doctrine\\DBAL\\Exception\\UniqueConstraintViolationException",
+        "trace": [
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/dbal\/lib\/Doctrine\/DBAL\/Driver\/AbstractMySQLDriver.php",
+            "line": 55,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\DBAL\\Driver",
+            "short_class": "AbstractMySQLDriver",
+            "class": "Doctrine\\DBAL\\Driver\\AbstractMySQLDriver",
+            "type": "->",
+            "function": "convertException",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/dbal\/lib\/Doctrine\/DBAL\/DBALException.php",
+            "line": 169,
+            "args": [
+              [
+                "string",
+                "An exception occurred while executing 'INSERT INTO dishes_ingredients (dishes_id, ingredients_id) VALUES (?, ?)' with params [9, 3]:\n\nSQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '9-3' for key 'PRIMARY'"
+              ],
+              [
+                "object",
+                "Doctrine\\DBAL\\Driver\\PDOException"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\DBAL",
+            "short_class": "DBALException",
+            "class": "Doctrine\\DBAL\\DBALException",
+            "type": "::",
+            "function": "wrapException",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/dbal\/lib\/Doctrine\/DBAL\/DBALException.php",
+            "line": 145,
+            "args": [
+              [
+                "object",
+                "Doctrine\\DBAL\\Driver\\PDOMySql\\Driver"
+              ],
+              [
+                "object",
+                "Doctrine\\DBAL\\Driver\\PDOException"
+              ],
+              [
+                "string",
+                "An exception occurred while executing 'INSERT INTO dishes_ingredients (dishes_id, ingredients_id) VALUES (?, ?)' with params [9, 3]:\n\nSQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '9-3' for key 'PRIMARY'"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\DBAL",
+            "short_class": "DBALException",
+            "class": "Doctrine\\DBAL\\DBALException",
+            "type": "::",
+            "function": "driverExceptionDuringQuery",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/dbal\/lib\/Doctrine\/DBAL\/Connection.php",
+            "line": 1063,
+            "args": [
+              [
+                "object",
+                "Doctrine\\DBAL\\Driver\\PDOMySql\\Driver"
+              ],
+              [
+                "object",
+                "Doctrine\\DBAL\\Driver\\PDOException"
+              ],
+              [
+                "string",
+                "INSERT INTO dishes_ingredients (dishes_id, ingredients_id) VALUES (?, ?)"
+              ],
+              [
+                "array",
+                {
+                  "1": [
+                    "integer",
+                    9
+                  ],
+                  "2": [
+                    "integer",
+                    3
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\DBAL",
+            "short_class": "Connection",
+            "class": "Doctrine\\DBAL\\Connection",
+            "type": "->",
+            "function": "executeUpdate",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Persisters\/Collection\/ManyToManyPersister.php",
+            "line": 86,
+            "args": [
+              [
+                "string",
+                "INSERT INTO dishes_ingredients (dishes_id, ingredients_id) VALUES (?, ?)"
+              ],
+              [
+                "array",
+                [
+                  [
+                    "integer",
+                    9
+                  ],
+                  [
+                    "integer",
+                    3
+                  ]
+                ]
+              ],
+              [
+                "array",
+                [
+                  [
+                    "string",
+                    "integer"
+                  ],
+                  [
+                    "string",
+                    "integer"
+                  ]
+                ]
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Persisters\\Collection",
+            "short_class": "ManyToManyPersister",
+            "class": "Doctrine\\ORM\\Persisters\\Collection\\ManyToManyPersister",
+            "type": "->",
+            "function": "update",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/UnitOfWork.php",
+            "line": 403,
+            "args": [
+              [
+                "object",
+                "Doctrine\\ORM\\PersistentCollection"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "UnitOfWork",
+            "class": "Doctrine\\ORM\\UnitOfWork",
+            "type": "->",
+            "function": "commit",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/EntityManager.php",
+            "line": 359,
+            "args": [
+              [
+                "null",
+                null
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "EntityManager",
+            "class": "Doctrine\\ORM\\EntityManager",
+            "type": "->",
+            "function": "flush",
+            "file": "\/var\/www\/html\/api_restaurants\/src\/Controller\/DishesController.php",
+            "line": 286,
+            "args": []
+          },
+          {
+            "namespace": "App\\Controller",
+            "short_class": "DishesController",
+            "class": "App\\Controller\\DishesController",
+            "type": "->",
+            "function": "editDishesIngredientsAction",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/HttpKernel.php",
+            "line": 150,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "string",
+                "9"
+              ],
+              [
+                "string",
+                "Ingredient3"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handleRaw",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/HttpKernel.php",
+            "line": 67,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/Kernel.php",
+            "line": 198,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ],
+              [
+                "boolean",
+                true
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "Kernel",
+            "class": "Symfony\\Component\\HttpKernel\\Kernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/html\/api_restaurants\/public\/index.php",
+            "line": 25,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "message": "SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '9-3' for key 'PRIMARY'",
+        "class": "Doctrine\\DBAL\\Driver\\PDOException",
+        "trace": [
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/dbal\/lib\/Doctrine\/DBAL\/Driver\/PDOStatement.php",
+            "line": 119,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\DBAL\\Driver",
+            "short_class": "PDOStatement",
+            "class": "Doctrine\\DBAL\\Driver\\PDOStatement",
+            "type": "->",
+            "function": "execute",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/dbal\/lib\/Doctrine\/DBAL\/Connection.php",
+            "line": 1054,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\DBAL",
+            "short_class": "Connection",
+            "class": "Doctrine\\DBAL\\Connection",
+            "type": "->",
+            "function": "executeUpdate",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Persisters\/Collection\/ManyToManyPersister.php",
+            "line": 86,
+            "args": [
+              [
+                "string",
+                "INSERT INTO dishes_ingredients (dishes_id, ingredients_id) VALUES (?, ?)"
+              ],
+              [
+                "array",
+                [
+                  [
+                    "integer",
+                    9
+                  ],
+                  [
+                    "integer",
+                    3
+                  ]
+                ]
+              ],
+              [
+                "array",
+                [
+                  [
+                    "string",
+                    "integer"
+                  ],
+                  [
+                    "string",
+                    "integer"
+                  ]
+                ]
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Persisters\\Collection",
+            "short_class": "ManyToManyPersister",
+            "class": "Doctrine\\ORM\\Persisters\\Collection\\ManyToManyPersister",
+            "type": "->",
+            "function": "update",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/UnitOfWork.php",
+            "line": 403,
+            "args": [
+              [
+                "object",
+                "Doctrine\\ORM\\PersistentCollection"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "UnitOfWork",
+            "class": "Doctrine\\ORM\\UnitOfWork",
+            "type": "->",
+            "function": "commit",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/EntityManager.php",
+            "line": 359,
+            "args": [
+              [
+                "null",
+                null
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "EntityManager",
+            "class": "Doctrine\\ORM\\EntityManager",
+            "type": "->",
+            "function": "flush",
+            "file": "\/var\/www\/html\/api_restaurants\/src\/Controller\/DishesController.php",
+            "line": 286,
+            "args": []
+          },
+          {
+            "namespace": "App\\Controller",
+            "short_class": "DishesController",
+            "class": "App\\Controller\\DishesController",
+            "type": "->",
+            "function": "editDishesIngredientsAction",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/HttpKernel.php",
+            "line": 150,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "string",
+                "9"
+              ],
+              [
+                "string",
+                "Ingredient3"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handleRaw",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/HttpKernel.php",
+            "line": 67,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/Kernel.php",
+            "line": 198,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ],
+              [
+                "boolean",
+                true
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "Kernel",
+            "class": "Symfony\\Component\\HttpKernel\\Kernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/html\/api_restaurants\/public\/index.php",
+            "line": 25,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "message": "SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '9-3' for key 'PRIMARY'",
+        "class": "PDOException",
+        "trace": [
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/dbal\/lib\/Doctrine\/DBAL\/Driver\/PDOStatement.php",
+            "line": 117,
+            "args": []
+          },
+          {
+            "namespace": "",
+            "short_class": "PDOStatement",
+            "class": "PDOStatement",
+            "type": "->",
+            "function": "execute",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/dbal\/lib\/Doctrine\/DBAL\/Driver\/PDOStatement.php",
+            "line": 117,
+            "args": [
+              [
+                "null",
+                null
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\DBAL\\Driver",
+            "short_class": "PDOStatement",
+            "class": "Doctrine\\DBAL\\Driver\\PDOStatement",
+            "type": "->",
+            "function": "execute",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/dbal\/lib\/Doctrine\/DBAL\/Connection.php",
+            "line": 1054,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\DBAL",
+            "short_class": "Connection",
+            "class": "Doctrine\\DBAL\\Connection",
+            "type": "->",
+            "function": "executeUpdate",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Persisters\/Collection\/ManyToManyPersister.php",
+            "line": 86,
+            "args": [
+              [
+                "string",
+                "INSERT INTO dishes_ingredients (dishes_id, ingredients_id) VALUES (?, ?)"
+              ],
+              [
+                "array",
+                [
+                  [
+                    "integer",
+                    9
+                  ],
+                  [
+                    "integer",
+                    3
+                  ]
+                ]
+              ],
+              [
+                "array",
+                [
+                  [
+                    "string",
+                    "integer"
+                  ],
+                  [
+                    "string",
+                    "integer"
+                  ]
+                ]
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Persisters\\Collection",
+            "short_class": "ManyToManyPersister",
+            "class": "Doctrine\\ORM\\Persisters\\Collection\\ManyToManyPersister",
+            "type": "->",
+            "function": "update",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/UnitOfWork.php",
+            "line": 403,
+            "args": [
+              [
+                "object",
+                "Doctrine\\ORM\\PersistentCollection"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "UnitOfWork",
+            "class": "Doctrine\\ORM\\UnitOfWork",
+            "type": "->",
+            "function": "commit",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/EntityManager.php",
+            "line": 359,
+            "args": [
+              [
+                "null",
+                null
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "EntityManager",
+            "class": "Doctrine\\ORM\\EntityManager",
+            "type": "->",
+            "function": "flush",
+            "file": "\/var\/www\/html\/api_restaurants\/src\/Controller\/DishesController.php",
+            "line": 286,
+            "args": []
+          },
+          {
+            "namespace": "App\\Controller",
+            "short_class": "DishesController",
+            "class": "App\\Controller\\DishesController",
+            "type": "->",
+            "function": "editDishesIngredientsAction",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/HttpKernel.php",
+            "line": 150,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "string",
+                "9"
+              ],
+              [
+                "string",
+                "Ingredient3"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handleRaw",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/HttpKernel.php",
+            "line": 67,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/Kernel.php",
+            "line": 198,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ],
+              [
+                "boolean",
+                true
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "Kernel",
+            "class": "Symfony\\Component\\HttpKernel\\Kernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/html\/api_restaurants\/public\/index.php",
+            "line": 25,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

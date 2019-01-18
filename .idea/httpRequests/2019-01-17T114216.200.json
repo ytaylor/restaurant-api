@@ -1,0 +1,10 @@
+{
+  "data": {
+    "id": 1,
+    "dishes_ingredients": [],
+    "name": "name2",
+    "description": "description",
+    "calories": "calories",
+    "price": 2.5
+  }
+}

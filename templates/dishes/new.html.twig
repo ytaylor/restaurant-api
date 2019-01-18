@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Dishes{% endblock %}
+
+{% block body %}
+    <h1>Create new Dishes</h1>
+
+    {{ include('dishes/_form.html.twig') }}
+
+    <a href="{{ path('dishes_index') }}">back to list</a>
+{% endblock %}

@@ -1,0 +1,500 @@
+PUT http://127.0.0.1:8000/api/dishes/9/removeingredient/Ingredient4?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-18T123312.200.json
+
+###
+
+PUT http://127.0.0.1:8000/api/dishes/9/addingredient/Ingredient4?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-18T123259.200.json
+
+###
+
+PUT http://127.0.0.1:8000/api/dishes/9/addingredient/Ingredient4?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-18T123136.500.json
+
+###
+
+PUT http://127.0.0.1:8000/api/dishes/9/removeingredient/Ingredient4?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-18T122624.200.json
+
+###
+
+PUT http://127.0.0.1:8000/api/dishes/9/removeingredient/Ingredient4?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-18T122427.200.json
+
+###
+
+PUT http://127.0.0.1:8000/api/dishes/9/removeingredient/Ingredient4?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-18T122337.500.json
+
+###
+
+PUT http://127.0.0.1:8000/api/dishes/9/removeingredient/Ingredient4?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-18T122110.500.json
+
+###
+
+PUT http://127.0.0.1:8000/api/dishes/9/removeingredient/Ingredient4?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-18T122008.500.json
+
+###
+
+PUT http://127.0.0.1:8000/api/dishes/9/removeingredient/Ingredient4?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-18T121701.500.json
+
+###
+
+PUT http://127.0.0.1:8000/api/dishes/9/removeingredient/Ingredient4?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-18T121700.500.json
+
+###
+
+PUT http://127.0.0.1:8000/api/dishes/9/removeingredient/Ingredient4?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-18T121530.500.json
+
+###
+
+PUT http://127.0.0.1:8000/api/dishes/9/removeingredient/Ingredient4?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-18T121333.404.json
+
+###
+
+PUT http://127.0.0.1:8000/api/dishes/9/addingredient/Ingredient4?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-18T120440.200.json
+
+###
+
+PUT http://127.0.0.1:8000/api/dishes/9/addingredient/Ingredient3?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-18T120328.500.json
+
+###
+
+PUT http://127.0.0.1:8000/api/dishes/9/addingredient/Ingredient3?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-18T120129.500.json
+
+###
+
+PUT http://127.0.0.1:8000/api/dishes/9/addIngredient/Ingredient3?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-18T120012.404.json
+
+###
+
+DELETE http://127.0.0.1:8000/api/dishes/1/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-17T114355.200.json
+
+###
+
+PUT http://127.0.0.1:8000/api/dishes/1/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name2", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-17T114216.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-17T113904.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-17T113843.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-17T112256.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-17T111905.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-17T111829.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-17T111724.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": [{ 			"name": "Ingrediente1" 		}, 		{ 			"name": "Ingrediente2" 		} 	] }
+
+<> 2019-01-17T111441.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"Ingrediente1": { 			"name": "Ingrediente1" 		}, 		"Ingrediente2": { 			"name": "Ingrediente2" 		} 	} }
+
+<> 2019-01-17T111054.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"Ingrediente1": { 			"name": "Ingrediente1" 		}, 		"Ingrediente2": { 			"name": "Ingrediente2" 		} 	} }
+
+<> 2019-01-17T110848.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"Ingrediente1": { 			"name": "Ingrediente1" 		}, 		"Ingrediente2": { 			"name": "Ingrediente2" 		} 	} }
+
+<> 2019-01-17T110748.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"Ingrediente1": "Ingrediente1", 		"Ingrediente2": "Ingrediente2", 		"Ingrediente3": "Ingrediente3" 	} }
+
+<> 2019-01-17T110543.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"name": "Ingrediente" 	} }
+
+<> 2019-01-17T102805.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"name": "Ingrediente" 	} }
+
+<> 2019-01-17T102531.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"name": "Ingrediente" 	} }
+
+<> 2019-01-17T102429.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"name": "Ingrediente" 	} }
+
+<> 2019-01-17T102011.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"name": "Ingrediente" 	} }
+
+<> 2019-01-17T101801.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"name": "Ingrediente" 	} }
+
+<> 2019-01-17T101714.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"name": "Ingrediente" 	} }
+
+<> 2019-01-17T101638.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"name": "Ingrediente" 	} }
+
+<> 2019-01-17T101527.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"name": "Ingrediente" 	} }
+
+<> 2019-01-17T101413.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"name": "Ingrediente" 	} }
+
+<> 2019-01-17T100809.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"name": "Ingrediente" 	} }
+
+<> 2019-01-17T100634.500.html
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"name": "Ingrediente" 	} }
+
+<> 2019-01-17T095610.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"name": "Ingrediente" 	} }
+
+<> 2019-01-17T095504.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"name": "Ingrediente" 	} }
+
+<> 2019-01-17T095359.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"name": "Ingrediente" 	} }
+
+<> 2019-01-17T095145.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"name": "Ingrediente" 	} }
+
+<> 2019-01-17T095115.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"dishesIngredients": { 		"name": "Ingrediente" 	} }
+
+<> 2019-01-17T094703.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5}
+
+<> 2019-01-17T090755.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, "preparationTime": "2012-04-21T18:25:43-05:00"}
+
+<> 2019-01-17T090521.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5}
+
+<> 2019-01-17T090401.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/dishes/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{ 	"name": "name", 	"description": "description", 	"calories": "calories", 	"price": 2.5, 	"preparationTime": 2012-04-23T18:25:43.511Z }
+
+<> 2019-01-17T090313.500.json
+
+###
+

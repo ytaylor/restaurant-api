@@ -1,0 +1,16 @@
+{
+  "data": {
+    "id": 16,
+    "dishes_ingredients": [
+      {
+        "id": 1,
+        "ingredients_allergens": [],
+        "name": "Ingrediente1"
+      }
+    ],
+    "name": "name",
+    "description": "description",
+    "calories": "calories",
+    "price": 2.5
+  }
+}

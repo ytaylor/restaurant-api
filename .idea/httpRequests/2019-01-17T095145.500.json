@@ -1,0 +1,120 @@
+{
+  "error": {
+    "code": 500,
+    "message": "Internal Server Error",
+    "exception": [
+      {
+        "message": "Argument 1 passed to Doctrine\\ORM\\EntityRepository::findBy() must be of the type array, string given, called in \/var\/www\/html\/api_restaurants\/src\/Controller\/DishesController.php on line 168",
+        "class": "TypeError",
+        "trace": [
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/EntityRepository.php",
+            "line": 177,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "EntityRepository",
+            "class": "Doctrine\\ORM\\EntityRepository",
+            "type": "->",
+            "function": "findBy",
+            "file": "\/var\/www\/html\/api_restaurants\/src\/Controller\/DishesController.php",
+            "line": 168,
+            "args": [
+              [
+                "string",
+                "name"
+              ],
+              [
+                "array",
+                [
+                  [
+                    "string",
+                    "Ingrediente"
+                  ]
+                ]
+              ]
+            ]
+          },
+          {
+            "namespace": "App\\Controller",
+            "short_class": "DishesController",
+            "class": "App\\Controller\\DishesController",
+            "type": "->",
+            "function": "addDishesAction",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/HttpKernel.php",
+            "line": 150,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handleRaw",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/HttpKernel.php",
+            "line": 67,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/Kernel.php",
+            "line": 198,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ],
+              [
+                "boolean",
+                true
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "Kernel",
+            "class": "Symfony\\Component\\HttpKernel\\Kernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/html\/api_restaurants\/public\/index.php",
+            "line": 25,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
