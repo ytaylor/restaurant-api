@@ -9,88 +9,57 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use FOS\RestBundle\Controller\FOSRestController;
+use Swagger\Annotations as SWG;
+use FOS\RestBundle\Controller\Annotations as Rest;;
+use Symfony\Component\Config\Definition\Exception\Exception;
+use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
+use Nelmio\ApiDocBundle\Annotation\Model;
+use Symfony\Component\Security\Core\Exception\DisabledException;
 
-/**
- * @Route("/allergens")
- */
-class AllergensController extends AbstractController
+
+
+class AllergensController extends FOSRestController
 {
     /**
-     * @Route("/", name="allergens_index", methods={"GET"})
+     * @Rest\Get("/allergens.{_format}", name="allergens_list_all", defaults={"_format":"json"})
+     *
+     * @SWG\Response(
+     *     response=200,
+     *     description="Gets all allergens."
+     * )
+     *
+     * @SWG\Response(
+     *     response=500,
+     *     description="An error has occurred trying to get all allergens."
+     * )
+     *
+     * @SWG\Tag(name="Allergens")
      */
-    public function index(AllergensRepository $allergensRepository): Response
-    {
-        return $this->render('allergens/index.html.twig', [
-            'allergens' => $allergensRepository->findAll(),
-        ]);
-    }
+    public function getIngredientsAction(Request $request) {
+        $serializer = $this->get('jms_serializer');
+        $em = $this->getDoctrine()->getManager();
+        $allergens = [];
+        $message = "";
 
-    /**
-     * @Route("/new", name="allergens_new", methods={"GET","POST"})
-     */
-    public function new(Request $request): Response
-    {
-        $allergen = new Allergens();
-        $form = $this->createForm(AllergensType::class, $allergen);
-        $form->handleRequest($request);
+        try {
+            $code = 200;
+            $allergens = $em->getRepository("App:Allergens")->findAll();
 
-        if ($form->isSubmitted() && $form->isValid()) {
-            $entityManager = $this->getDoctrine()->getManager();
-            $entityManager->persist($allergen);
-            $entityManager->flush();
+            if (is_null($allergens)) {
+                $allergens = [];
+            }
 
-            return $this->redirectToRoute('allergens_index');
+        } catch (Exception $ex) {
+            $code = 500;
+            $message = "An error has occurred trying to get all Allergens - Error: {$ex->getMessage()}";
         }
 
-        return $this->render('allergens/new.html.twig', [
-            'allergen' => $allergen,
-            'form' => $form->createView(),
-        ]);
-    }
+        $response = [
+            'data' => $code == 200 ? $allergens : $message,
+        ];
 
-    /**
-     * @Route("/{id}", name="allergens_show", methods={"GET"})
-     */
-    public function show(Allergens $allergen): Response
-    {
-        return $this->render('allergens/show.html.twig', [
-            'allergen' => $allergen,
-        ]);
-    }
-
-    /**
-     * @Route("/{id}/edit", name="allergens_edit", methods={"GET","POST"})
-     */
-    public function edit(Request $request, Allergens $allergen): Response
-    {
-        $form = $this->createForm(AllergensType::class, $allergen);
-        $form->handleRequest($request);
-
-        if ($form->isSubmitted() && $form->isValid()) {
-            $this->getDoctrine()->getManager()->flush();
-
-            return $this->redirectToRoute('allergens_index', [
-                'id' => $allergen->getId(),
-            ]);
-        }
-
-        return $this->render('allergens/edit.html.twig', [
-            'allergen' => $allergen,
-            'form' => $form->createView(),
-        ]);
-    }
-
-    /**
-     * @Route("/{id}", name="allergens_delete", methods={"DELETE"})
-     */
-    public function delete(Request $request, Allergens $allergen): Response
-    {
-        if ($this->isCsrfTokenValid('delete'.$allergen->getId(), $request->request->get('_token'))) {
-            $entityManager = $this->getDoctrine()->getManager();
-            $entityManager->remove($allergen);
-            $entityManager->flush();
-        }
-
-        return $this->redirectToRoute('allergens_index');
+        return new Response($serializer->serialize($response, "json"));
     }
 }

@@ -1,0 +1,16 @@
+{
+  "data": {
+    "id": 6,
+    "ingredients_allergens": [
+      {
+        "id": 1,
+        "name": "Allergeno1"
+      },
+      {
+        "id": 2,
+        "name": "Allergeno2"
+      }
+    ],
+    "name": "Ingrediente6"
+  }
+}

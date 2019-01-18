@@ -4,8 +4,8 @@
     "message": "Internal Server Error",
     "exception": [
       {
-        "message": "Warning: json_decode() expects parameter 1 to be string, object given",
-        "class": "ErrorException",
+        "message": "Cannot use object of type stdClass as array",
+        "class": "Error",
         "trace": [
           {
             "namespace": "",
@@ -13,16 +13,40 @@
             "class": "",
             "type": "",
             "function": "",
-            "file": "\/var\/www\/html\/api_restaurants\/src\/Controller\/DishesController.php",
-            "line": 166,
+            "file": "\/var\/www\/html\/api_restaurants\/src\/Controller\/IngredientsController.php",
+            "line": 223,
             "args": []
           },
           {
             "namespace": "App\\Controller",
-            "short_class": "DishesController",
-            "class": "App\\Controller\\DishesController",
+            "short_class": "IngredientsController",
+            "class": "App\\Controller\\IngredientsController",
             "type": "->",
-            "function": "addDishesAction",
+            "function": "addAllergen",
+            "file": "\/var\/www\/html\/api_restaurants\/src\/Controller\/IngredientsController.php",
+            "line": 151,
+            "args": [
+              [
+                "array",
+                [
+                  [
+                    "object",
+                    "stdClass"
+                  ],
+                  [
+                    "object",
+                    "stdClass"
+                  ]
+                ]
+              ]
+            ]
+          },
+          {
+            "namespace": "App\\Controller",
+            "short_class": "IngredientsController",
+            "class": "App\\Controller\\IngredientsController",
+            "type": "->",
+            "function": "addIngredientsAction",
             "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/HttpKernel.php",
             "line": 150,
             "args": [

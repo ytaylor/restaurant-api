@@ -28,7 +28,7 @@ class Ingredients
     private $ingredientsAllergens;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255, unique=true)
      */
     private $name;
 
@@ -47,5 +47,34 @@ class Ingredients
         $this->name = $name;
 
         return $this;
+    }
+
+
+    /**
+     * Add allergen to ingredients
+     *
+     * @param Allergens $allergen
+     *
+     * @return Allergens
+     */
+    public function addAllergenToIngredient(Allergens $allergen)
+    {
+        $this->ingredientsAllergens[] = $allergen;
+        return $this;
+    }
+
+    /**
+     * Remove allergen to ingredients
+     *
+     * @param Allergen $allergen
+     *
+     * @return $allergen
+     */
+    public function removeIngredientsToDishes(Allergens $allergen)
+    {
+        if (!$this->ingredientsAllergens->contains($allergen)) {
+            return;
+        }
+        $this->ingredientsAllergens->removeElement($allergen);
     }
 }

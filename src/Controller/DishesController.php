@@ -35,14 +35,6 @@ class DishesController extends FOSRestController
      *     description="An error has occurred trying to get all dishes."
      * )
      *
-     * @SWG\Parameter(
-     *     name="id",
-     *     in="query",
-     *     type="string",
-     *     description="The Dishes ID"
-     * )
-     *
-     *
      * @SWG\Tag(name="Dishes")
      */
     public function getDishesAction(Request $request) {
