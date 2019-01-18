@@ -2,36 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8ba259a-36a5-425d-ace8-6a7f554a9b50" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T090313.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T090401.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T090521.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T090755.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T094703.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T095115.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T095145.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T095359.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T095504.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T095610.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T100634.500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T100809.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T101413.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T101527.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T101638.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T101714.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T101801.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T102011.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T102429.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T102531.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T102805.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T110543.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T110748.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T110848.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T111054.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T111441.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T111724.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T111829.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T111905.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T112256.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T113843.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T113904.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T114216.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-17T114355.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T113243.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T113304.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T113402.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T113433.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T114743.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T114820.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T114935.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T115104.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T115317.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T115453.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T115454.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T115603.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T120012.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T120129.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T120328.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T120440.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T121333.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T121530.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T121700.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T121701.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T122008.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T122110.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T122337.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T122427.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T122624.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T123136.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T123259.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T123312.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/AllergensController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AllergensController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/DishesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DishesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/IngredientsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/IngredientsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Allergens.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Allergens.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Dishes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Dishes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Ingredients.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Ingredients.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/AllergensRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/AllergensRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/DishesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/DishesRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../backend-api/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend-api/.idea/backend-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend-api/.idea/backend-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend-api/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/../backend-api/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
@@ -303,22 +318,70 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="api_restaurants" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Ingredients.php">
+        <entry file="file://$PROJECT_DIR$/src/Controller/DishesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="30" column="57" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="57" />
+            <state relative-caret-position="120">
+              <caret line="441" column="5" selection-start-line="441" selection-start-column="5" selection-end-line="441" selection-end-column="5" />
+              <folding>
+                <element signature="e#34#56#0#PHP" expanded="true" />
+                <element signature="e#772#1153#0#PHP" />
+                <element signature="e#1158#1887#0#PHP" />
+                <element signature="e#1893#2488#0#PHP" />
+                <element signature="e#2493#3325#0#PHP" />
+                <element signature="e#3331#3899#0#PHP" />
+                <element signature="e#3904#5134#0#PHP" />
+                <element signature="e#5140#5871#0#PHP" />
+                <element signature="e#5876#6921#0#PHP" />
+                <element signature="e#10613#11520#0#PHP" />
+                <element signature="e#11526#12144#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/AllergensController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+              <folding>
+                <element signature="e#34#59#0#PHP" expanded="true" />
+                <element signature="e#468#528#0#PHP" expanded="true" />
+                <element signature="e#822#1218#0#PHP" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Allergens.php">
+        <entry file="file://$PROJECT_DIR$/src/Repository/DishesRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            <state relative-caret-position="120">
+              <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Ingredients.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="54" column="5" selection-start-line="51" selection-start-column="3" selection-end-line="54" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Dishes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="111" column="54" selection-start-line="111" selection-start-column="54" selection-end-line="111" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -339,7 +402,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response56.json" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response133.json" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -363,21 +426,24 @@
         <option value="restClient/response35.txt" />
         <option value="restClient/response36.txt" />
         <option value="restClient/response72.txt" />
-        <option value="restClient/response75.txt" />
         <option value="restClient/response82.txt" />
         <option value="restClient/response97.txt" />
         <option value="$PROJECT_DIR$/../backend-api/src/DietaBundle/Controller/DietaController.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Dishes.php" />
         <option value="restClient/response0.txt" />
         <option value="restClient/response7.txt" />
-        <option value="$PROJECT_DIR$/src/Controller/DishesController.php" />
         <option value="restClient/response10.txt" />
         <option value="restClient/response26.txt" />
         <option value="restClient/response32.txt" />
         <option value="$PROJECT_DIR$/src/Controller/IngredientsController.php" />
-        <option value="$PROJECT_DIR$/src/Controller/AllergensController.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Ingredients.php" />
         <option value="$PROJECT_DIR$/src/Entity/Allergens.php" />
+        <option value="restClient/response75.txt" />
+        <option value="$PROJECT_DIR$/src/Entity/Ingredients.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Dishes.php" />
+        <option value="$PROJECT_DIR$/src/Repository/AllergensRepository.php" />
+        <option value="$PROJECT_DIR$/src/Repository/IngredientsRepository.php" />
+        <option value="$PROJECT_DIR$/src/Controller/DishesController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/AllergensController.php" />
+        <option value="$PROJECT_DIR$/src/Repository/DishesRepository.php" />
       </list>
     </option>
   </component>
@@ -536,7 +602,35 @@
               <item name="api_restaurants" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_restaurants" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_restaurants" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_restaurants" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_restaurants" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_restaurants" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_restaurants" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DietaBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_restaurants" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DietaBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -563,6 +657,151 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/allergens/Allergeno1/dishes" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/allergens/Allergen1/dishes" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/dishes/9/allergens/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/dishes/9/allergens/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{ &#9;&quot;name&quot;: &quot;Ingrediente7&quot;, &#9;&quot;ingredientsAllergens&quot;: [{ &#9;&#9;&quot;name&quot;: &quot;Allergeno1&quot; &#9;}, { &#9;&#9;&quot;name&quot;: &quot;Allergeno2&quot; &#9;}] }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8000" />
+          <option name="urlPath" value="/api/dishes/9/allergens" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{ &#9;&quot;name&quot;: &quot;Ingrediente7&quot;, &#9;&quot;ingredientsAllergens&quot;: [{ &#9;&#9;&quot;name&quot;: &quot;Allergeno1&quot; &#9;}, { &#9;&#9;&quot;name&quot;: &quot;Allergeno2&quot; &#9;}] }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://127.0.0.1:8000" />
@@ -1501,12 +1740,12 @@
       <updated>1547659738118</updated>
       <workItem from="1547659739330" duration="40297000" />
       <workItem from="1547772739795" duration="28000" />
-      <workItem from="1547806208491" duration="4409000" />
+      <workItem from="1547806208491" duration="11333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44734000" />
+    <option name="totallyTimeSpent" value="51658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1521,8 +1760,8 @@
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25538707" />
+      <window_info id="Favorites" order="0" sideWeight="0.50240386" side_tool="true" weight="0.25538707" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49759614" visible="true" weight="0.25538707" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="0" weight="0.32899022" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.4397394" />
@@ -1537,7 +1776,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32899022" />
-      <window_info anchor="bottom" id="REST Client" order="13" weight="0.38599348" />
+      <window_info active="true" anchor="bottom" id="REST Client" order="13" visible="true" weight="0.45439738" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -1579,12 +1818,6 @@
           <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../backend-api/src/DietaBundle/Repository/DietaRepository.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../backend-api/src/DietaBundle/Repository/DietaItemRepository.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/nelmio_api_doc.yaml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1704,20 +1937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/DishesRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../backend-api/src/DietaBundle/Entity/Dieta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="125" column="6" selection-start-line="125" selection-start-column="6" selection-end-line="125" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../backend-api/src/DietaBundle/Controller/DietaController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -1727,17 +1946,6 @@
             <element signature="e#2603#2979#0#PHP" />
             <element signature="e#3050#3166#0#PHP" />
             <element signature="e#3441#3878#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/AllergensController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-          <folding>
-            <element signature="e#34#59#0#PHP" expanded="true" />
-            <element signature="e#468#528#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1764,47 +1972,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/DishesController.php">
+    <entry file="file://$PROJECT_DIR$/src/Entity/Allergens.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="380" selection-start-line="331" selection-start-column="4" selection-end-line="380" />
-          <folding>
-            <element signature="e#34#56#0#PHP" expanded="true" />
-            <element signature="e#772#1309#0#PHP" />
-            <element signature="e#1314#2043#0#PHP" />
-            <element signature="e#2049#2644#0#PHP" />
-            <element signature="e#2649#3481#0#PHP" />
-            <element signature="e#3487#4055#0#PHP" />
-            <element signature="e#4060#5290#0#PHP" />
-            <element signature="e#5296#6027#0#PHP" />
-            <element signature="e#6032#7077#0#PHP" />
-            <element signature="e#7084#7681#0#PHP" />
-            <element signature="e#8581#9200#0#PHP" />
-            <element signature="e#9205#10208#0#PHP" />
-            <element signature="e#10214#10766#0#PHP" />
-            <element signature="e#10771#11678#0#PHP" />
-          </folding>
+        <state relative-caret-position="382">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backend-api/src/DietaBundle/Entity/Dieta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1654">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Dishes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="130" column="5" selection-start-line="103" selection-end-line="130" selection-end-column="5" />
+        <state relative-caret-position="146">
+          <caret line="111" column="54" selection-start-line="111" selection-start-column="54" selection-end-line="111" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backend-api/src/DietaBundle/Repository/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backend-api/src/DietaBundle/Repository/DietaItemRepository.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backend-api/src/DietaBundle/Repository/DietaRepository.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backend-api/src/DietaBundle/Repository/RecetaRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Ingredients.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="57" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="57" />
+        <state relative-caret-position="80">
+          <caret line="54" column="5" selection-start-line="51" selection-start-column="3" selection-end-line="54" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Allergens.php">
+    <entry file="file://$PROJECT_DIR$/src/Repository/AllergensRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        <state relative-caret-position="148">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/IngredientsRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/DishesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="441" column="5" selection-start-line="441" selection-start-column="5" selection-end-line="441" selection-end-column="5" />
+          <folding>
+            <element signature="e#34#56#0#PHP" expanded="true" />
+            <element signature="e#772#1153#0#PHP" />
+            <element signature="e#1158#1887#0#PHP" />
+            <element signature="e#1893#2488#0#PHP" />
+            <element signature="e#2493#3325#0#PHP" />
+            <element signature="e#3331#3899#0#PHP" />
+            <element signature="e#3904#5134#0#PHP" />
+            <element signature="e#5140#5871#0#PHP" />
+            <element signature="e#5876#6921#0#PHP" />
+            <element signature="e#10613#11520#0#PHP" />
+            <element signature="e#11526#12144#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/AllergensController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+          <folding>
+            <element signature="e#34#59#0#PHP" expanded="true" />
+            <element signature="e#468#528#0#PHP" expanded="true" />
+            <element signature="e#822#1218#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/DishesRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
         </state>
       </provider>
     </entry>

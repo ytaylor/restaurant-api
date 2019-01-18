@@ -233,7 +233,6 @@ class DishesController extends FOSRestController
         return new Response($serializer->serialize($response, "json"));
     }
 
-
     /**
      * @Rest\Put("/dishes/{id}/addingredient/{name_ingredient}.{_format}", name="dishes_edit_add_ingredient", defaults={"_format":"json"})
      *
@@ -277,7 +276,6 @@ class DishesController extends FOSRestController
         ];
         return new Response($serializer->serialize($response, "json"));
     }
-
 
     /**
      * @Rest\Put("/dishes/{id}/removeingredient/{name_ingredient}.{_format}", name="dishes_edit_remove_ingredient", defaults={"_format":"json"})
@@ -378,6 +376,63 @@ class DishesController extends FOSRestController
 
         return new Response($serializer->serialize($response, "json"));
     }
+
+    /**
+     * @Rest\Get("/dishes/{id}/allergens.{_format}", name="allergens_dishes_by_id", defaults={"_format":"json"})
+     *
+     * @SWG\Response(
+     *     response=200,
+     *     description="Gets allergens info based on passed ID parameter of dishes."
+     * )
+     *
+     * @SWG\Response(
+     *     response=400,
+     *     description="The dishes with the passed ID parameter was not found or doesn't exist."
+     * )
+     *
+     * @SWG\Parameter(
+     *     name="id",
+     *     in="path",
+     *     type="string",
+     *     description="The Dishes ID"
+     * )
+     *
+     * @SWG\Tag(name="Dishes")
+     */
+    public function getAllergensDishesById(Request $request, $id) {
+        $serializer = $this->get('jms_serializer');
+        $em = $this->getDoctrine()->getManager();
+        $allergens = [];
+        $message = "";
+
+        try {
+            $code = 200;
+            $dishes_id = $id;
+            $dishes = $em->getRepository("App:Dishes")->find($dishes_id);
+
+            if (is_null($dishes)) {
+                $code = 500;
+                $message = "The dishes does not exist";
+            }
+            else{
+                foreach ($dishes->getIngredientsToDishes() as $ingredient){
+                    foreach ($ingredient->getIngredientsAllergens() as $allergen)
+                        $allergens[]=$allergen;
+                }
+            }
+        } catch (Exception $ex) {
+            $code = 500;
+            $message = "An error has occurred trying to get the current allergens pf dish - Error: {$ex->getMessage()}";
+        }
+
+        $response = [
+            'data' => $code == 200 ? $allergens : $message,
+        ];
+
+        return new Response($serializer->serialize($response, "json"));
+    }
+
+
 
     private  function addIngredient(array $ingredientsAdd)
     {

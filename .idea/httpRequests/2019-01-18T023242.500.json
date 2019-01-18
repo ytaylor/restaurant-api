@@ -1,0 +1,239 @@
+{
+  "error": {
+    "code": 500,
+    "message": "Internal Server Error",
+    "exception": [
+      {
+        "message": "Class 'App\\Entity\\DishesRepository' does not exist",
+        "class": "Doctrine\\Common\\Persistence\\Mapping\\MappingException",
+        "trace": [
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/persistence\/lib\/Doctrine\/Common\/Persistence\/Mapping\/MappingException.php",
+            "line": 93,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\Common\\Persistence\\Mapping",
+            "short_class": "MappingException",
+            "class": "Doctrine\\Common\\Persistence\\Mapping\\MappingException",
+            "type": "::",
+            "function": "nonExistingClass",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/persistence\/lib\/Doctrine\/Common\/Persistence\/Mapping\/RuntimeReflectionService.php",
+            "line": 24,
+            "args": [
+              [
+                "string",
+                "App\\Entity\\DishesRepository"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\Common\\Persistence\\Mapping",
+            "short_class": "RuntimeReflectionService",
+            "class": "Doctrine\\Common\\Persistence\\Mapping\\RuntimeReflectionService",
+            "type": "->",
+            "function": "getParentClasses",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/persistence\/lib\/Doctrine\/Common\/Persistence\/Mapping\/AbstractClassMetadataFactory.php",
+            "line": 251,
+            "args": [
+              [
+                "string",
+                "App\\Entity\\DishesRepository"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\Common\\Persistence\\Mapping",
+            "short_class": "AbstractClassMetadataFactory",
+            "class": "Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory",
+            "type": "->",
+            "function": "getParentClasses",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/persistence\/lib\/Doctrine\/Common\/Persistence\/Mapping\/AbstractClassMetadataFactory.php",
+            "line": 284,
+            "args": [
+              [
+                "string",
+                "App\\Entity\\DishesRepository"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\Common\\Persistence\\Mapping",
+            "short_class": "AbstractClassMetadataFactory",
+            "class": "Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory",
+            "type": "->",
+            "function": "loadMetadata",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Mapping\/ClassMetadataFactory.php",
+            "line": 78,
+            "args": [
+              [
+                "string",
+                "App\\Entity\\DishesRepository"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Mapping",
+            "short_class": "ClassMetadataFactory",
+            "class": "Doctrine\\ORM\\Mapping\\ClassMetadataFactory",
+            "type": "->",
+            "function": "loadMetadata",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/persistence\/lib\/Doctrine\/Common\/Persistence\/Mapping\/AbstractClassMetadataFactory.php",
+            "line": 183,
+            "args": [
+              [
+                "string",
+                "App\\Entity\\DishesRepository"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\Common\\Persistence\\Mapping",
+            "short_class": "AbstractClassMetadataFactory",
+            "class": "Doctrine\\Common\\Persistence\\Mapping\\AbstractClassMetadataFactory",
+            "type": "->",
+            "function": "getMetadataFor",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/EntityManager.php",
+            "line": 283,
+            "args": [
+              [
+                "string",
+                "App:DishesRepository"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "EntityManager",
+            "class": "Doctrine\\ORM\\EntityManager",
+            "type": "->",
+            "function": "getClassMetadata",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/doctrine-bundle\/Repository\/ContainerRepositoryFactory.php",
+            "line": 45,
+            "args": [
+              [
+                "string",
+                "App:DishesRepository"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\Bundle\\DoctrineBundle\\Repository",
+            "short_class": "ContainerRepositoryFactory",
+            "class": "Doctrine\\Bundle\\DoctrineBundle\\Repository\\ContainerRepositoryFactory",
+            "type": "->",
+            "function": "getRepository",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/EntityManager.php",
+            "line": 713,
+            "args": [
+              [
+                "object",
+                "Doctrine\\ORM\\EntityManager"
+              ],
+              [
+                "string",
+                "App:DishesRepository"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "EntityManager",
+            "class": "Doctrine\\ORM\\EntityManager",
+            "type": "->",
+            "function": "getRepository",
+            "file": "\/var\/www\/html\/api_restaurants\/src\/Controller\/AllergensController.php",
+            "line": 97,
+            "args": [
+              [
+                "string",
+                "App:DishesRepository"
+              ]
+            ]
+          },
+          {
+            "namespace": "App\\Controller",
+            "short_class": "AllergensController",
+            "class": "App\\Controller\\AllergensController",
+            "type": "->",
+            "function": "getDishesAllergensByName",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/HttpKernel.php",
+            "line": 150,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "string",
+                "Allergeno1"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handleRaw",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/HttpKernel.php",
+            "line": 67,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/Kernel.php",
+            "line": 198,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ],
+              [
+                "boolean",
+                true
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "Kernel",
+            "class": "Symfony\\Component\\HttpKernel\\Kernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/html\/api_restaurants\/public\/index.php",
+            "line": 25,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

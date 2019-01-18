@@ -37,7 +37,8 @@ class AllergensController extends FOSRestController
      *
      * @SWG\Tag(name="Allergens")
      */
-    public function getIngredientsAction(Request $request) {
+    public function getIngredientsAction(Request $request)
+    {
         $serializer = $this->get('jms_serializer');
         $em = $this->getDoctrine()->getManager();
         $allergens = [];
@@ -62,4 +63,54 @@ class AllergensController extends FOSRestController
 
         return new Response($serializer->serialize($response, "json"));
     }
+
+    /**
+     * @Rest\Get("/allergens/{name_allergen}/dishes.{_format}", name="dishes__allergens_by_name", defaults={"_format":"json"})
+     *
+     * @SWG\Response(
+     *     response=200,
+     *     description="Gets dishes info based on passed name of allergens."
+     * )
+     *
+     * @SWG\Response(
+     *     response=400,
+     *     description="The allergens with the passed ID parameter was not found or doesn't exist."
+     * )
+     *
+     * @SWG\Tag(name="Dishes")
+     */
+    public function getDishesAllergensByName(Request $request, $name_allergen)
+    {
+        $serializer = $this->get('jms_serializer');
+        $em = $this->getDoctrine()->getManager();
+        $dishes = [];
+        $message = "";
+
+        try {
+            $code = 200;
+            $allergen = $em->getRepository("App:Allergens")->findOneBy(['name' => $name_allergen]);
+
+            if (is_null($allergen)) {
+                $code = 500;
+                $message = "The allergen does not exist";
+            } else {
+                $dataDishes = $em->getRepository('App:Allergens')->findDishesByAllergen($name_allergen);
+                foreach ($dataDishes as $dish) {
+                    $dishes[] = $dish;
+                }
+
+            }
+        } catch (Exception $ex) {
+            $code = 500;
+            $message = "An error has occurred trying to get the current allergens pf dish - Error: {$ex->getMessage()}";
+        }
+
+        $response = [
+            'data' => $code == 200 ? $dishes : $message,
+        ];
+
+        return new Response($serializer->serialize($response, "json"));
+    }
+
+
 }

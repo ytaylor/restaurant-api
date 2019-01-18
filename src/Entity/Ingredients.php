@@ -49,6 +49,21 @@ class Ingredients
         return $this;
     }
 
+    public function __construct()
+    {
+        $this->ingredientsAllergens = new ArrayCollection();
+    }
+
+    /**
+     * Get allergens of ingredients
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getIngredientsAllergens()
+    {
+        return $this->ingredientsAllergens;
+    }
+
 
     /**
      * Add allergen to ingredients

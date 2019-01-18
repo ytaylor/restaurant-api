@@ -1,0 +1,115 @@
+{
+  "error": {
+    "code": 500,
+    "message": "Internal Server Error",
+    "exception": [
+      {
+        "message": "Warning: Use of undefined constant ingredients - assumed 'ingredients' (this will throw an Error in a future version of PHP)",
+        "class": "ErrorException",
+        "trace": [
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "",
+            "file": "\/var\/www\/html\/api_restaurants\/src\/Repository\/AllergensRepository.php",
+            "line": 33,
+            "args": []
+          },
+          {
+            "namespace": "App\\Repository",
+            "short_class": "AllergensRepository",
+            "class": "App\\Repository\\AllergensRepository",
+            "type": "->",
+            "function": "findDishesByAllegens",
+            "file": "\/var\/www\/html\/api_restaurants\/src\/Controller\/AllergensController.php",
+            "line": 96,
+            "args": [
+              [
+                "string",
+                "Allergeno1"
+              ]
+            ]
+          },
+          {
+            "namespace": "App\\Controller",
+            "short_class": "AllergensController",
+            "class": "App\\Controller\\AllergensController",
+            "type": "->",
+            "function": "getDishesAllergensByName",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/HttpKernel.php",
+            "line": 150,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "string",
+                "Allergeno1"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handleRaw",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/HttpKernel.php",
+            "line": 67,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/Kernel.php",
+            "line": 198,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ],
+              [
+                "boolean",
+                true
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "Kernel",
+            "class": "Symfony\\Component\\HttpKernel\\Kernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/html\/api_restaurants\/public\/index.php",
+            "line": 25,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -102,6 +102,19 @@ class Dishes
         return $this;
     }
 
+    public function __construct()
+    {
+        $this->dishesIngredients = new ArrayCollection();
+    }
+    /**
+     * Get ingredientos if dishes
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getIngredientsToDishes() {
+        return  $this->dishesIngredients;
+    }
+
     /**
      * Add ingredients to dishes
      *

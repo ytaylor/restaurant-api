@@ -1,0 +1,646 @@
+{
+  "error": {
+    "code": 500,
+    "message": "Internal Server Error",
+    "exception": [
+      {
+        "message": "[Semantical Error] line 0, col 73 near 'dishes_ingredients': Error: Class 'dishes_ingredients' is not defined.",
+        "class": "Doctrine\\ORM\\Query\\QueryException",
+        "trace": [
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/QueryException.php",
+            "line": 65,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "QueryException",
+            "class": "Doctrine\\ORM\\Query\\QueryException",
+            "type": "::",
+            "function": "semanticalError",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 491,
+            "args": [
+              [
+                "string",
+                "line 0, col 73 near 'dishes_ingredients': Error: Class 'dishes_ingredients' is not defined."
+              ],
+              [
+                "object",
+                "Doctrine\\ORM\\Query\\QueryException"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "semanticalError",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 991,
+            "args": [
+              [
+                "string",
+                "line 0, col 73 near 'dishes_ingredients': Error: Class 'dishes_ingredients' is not defined."
+              ],
+              [
+                "array",
+                {
+                  "value": [
+                    "string",
+                    "dishes_ingredients"
+                  ],
+                  "type": [
+                    "integer",
+                    102
+                  ],
+                  "position": [
+                    "integer",
+                    73
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "validateAbstractSchemaName",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 1734,
+            "args": [
+              [
+                "string",
+                "dishes_ingredients"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "RangeVariableDeclaration",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 1700,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "Join",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 1596,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "IdentificationVariableDeclaration",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 1319,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "FromClause",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 878,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "SelectStatement",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 847,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "QueryLanguage",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 260,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "getAST",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 359,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "parse",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query.php",
+            "line": 283,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "Query",
+            "class": "Doctrine\\ORM\\Query",
+            "type": "->",
+            "function": "_parse",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query.php",
+            "line": 295,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "Query",
+            "class": "Doctrine\\ORM\\Query",
+            "type": "->",
+            "function": "_doExecute",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/AbstractQuery.php",
+            "line": 967,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "AbstractQuery",
+            "class": "Doctrine\\ORM\\AbstractQuery",
+            "type": "->",
+            "function": "executeIgnoreQueryCache",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/AbstractQuery.php",
+            "line": 922,
+            "args": [
+              [
+                "null",
+                null
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "AbstractQuery",
+            "class": "Doctrine\\ORM\\AbstractQuery",
+            "type": "->",
+            "function": "execute",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/AbstractQuery.php",
+            "line": 726,
+            "args": [
+              [
+                "null",
+                null
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "AbstractQuery",
+            "class": "Doctrine\\ORM\\AbstractQuery",
+            "type": "->",
+            "function": "getResult",
+            "file": "\/var\/www\/html\/api_restaurants\/src\/Repository\/AllergensRepository.php",
+            "line": 33,
+            "args": []
+          },
+          {
+            "namespace": "App\\Repository",
+            "short_class": "AllergensRepository",
+            "class": "App\\Repository\\AllergensRepository",
+            "type": "->",
+            "function": "findDishesByAllegens",
+            "file": "\/var\/www\/html\/api_restaurants\/src\/Controller\/AllergensController.php",
+            "line": 96,
+            "args": [
+              [
+                "string",
+                "Allergeno1"
+              ]
+            ]
+          },
+          {
+            "namespace": "App\\Controller",
+            "short_class": "AllergensController",
+            "class": "App\\Controller\\AllergensController",
+            "type": "->",
+            "function": "getDishesAllergensByName",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/HttpKernel.php",
+            "line": 150,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "string",
+                "Allergeno1"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handleRaw",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/HttpKernel.php",
+            "line": 67,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/Kernel.php",
+            "line": 198,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ],
+              [
+                "boolean",
+                true
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "Kernel",
+            "class": "Symfony\\Component\\HttpKernel\\Kernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/html\/api_restaurants\/public\/index.php",
+            "line": 25,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "message": "SELECT dishes, dishes_ingredients FROM App\\Entity\\Allergens d INNER JOIN dishes_ingredients di ON di.dishes_id = d.id",
+        "class": "Doctrine\\ORM\\Query\\QueryException",
+        "trace": [
+          {
+            "namespace": "",
+            "short_class": "",
+            "class": "",
+            "type": "",
+            "function": "",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/QueryException.php",
+            "line": 43,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "QueryException",
+            "class": "Doctrine\\ORM\\Query\\QueryException",
+            "type": "::",
+            "function": "dqlError",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 491,
+            "args": [
+              [
+                "string",
+                "SELECT dishes, dishes_ingredients FROM App\\Entity\\Allergens d INNER JOIN dishes_ingredients di ON di.dishes_id = d.id"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "semanticalError",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 991,
+            "args": [
+              [
+                "string",
+                "line 0, col 73 near 'dishes_ingredients': Error: Class 'dishes_ingredients' is not defined."
+              ],
+              [
+                "array",
+                {
+                  "value": [
+                    "string",
+                    "dishes_ingredients"
+                  ],
+                  "type": [
+                    "integer",
+                    102
+                  ],
+                  "position": [
+                    "integer",
+                    73
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "validateAbstractSchemaName",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 1734,
+            "args": [
+              [
+                "string",
+                "dishes_ingredients"
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "RangeVariableDeclaration",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 1700,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "Join",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 1596,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "IdentificationVariableDeclaration",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 1319,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "FromClause",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 878,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "SelectStatement",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 847,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "QueryLanguage",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 260,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "getAST",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query\/Parser.php",
+            "line": 359,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM\\Query",
+            "short_class": "Parser",
+            "class": "Doctrine\\ORM\\Query\\Parser",
+            "type": "->",
+            "function": "parse",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query.php",
+            "line": 283,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "Query",
+            "class": "Doctrine\\ORM\\Query",
+            "type": "->",
+            "function": "_parse",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/Query.php",
+            "line": 295,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "Query",
+            "class": "Doctrine\\ORM\\Query",
+            "type": "->",
+            "function": "_doExecute",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/AbstractQuery.php",
+            "line": 967,
+            "args": []
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "AbstractQuery",
+            "class": "Doctrine\\ORM\\AbstractQuery",
+            "type": "->",
+            "function": "executeIgnoreQueryCache",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/AbstractQuery.php",
+            "line": 922,
+            "args": [
+              [
+                "null",
+                null
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "AbstractQuery",
+            "class": "Doctrine\\ORM\\AbstractQuery",
+            "type": "->",
+            "function": "execute",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/doctrine\/orm\/lib\/Doctrine\/ORM\/AbstractQuery.php",
+            "line": 726,
+            "args": [
+              [
+                "null",
+                null
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Doctrine\\ORM",
+            "short_class": "AbstractQuery",
+            "class": "Doctrine\\ORM\\AbstractQuery",
+            "type": "->",
+            "function": "getResult",
+            "file": "\/var\/www\/html\/api_restaurants\/src\/Repository\/AllergensRepository.php",
+            "line": 33,
+            "args": []
+          },
+          {
+            "namespace": "App\\Repository",
+            "short_class": "AllergensRepository",
+            "class": "App\\Repository\\AllergensRepository",
+            "type": "->",
+            "function": "findDishesByAllegens",
+            "file": "\/var\/www\/html\/api_restaurants\/src\/Controller\/AllergensController.php",
+            "line": 96,
+            "args": [
+              [
+                "string",
+                "Allergeno1"
+              ]
+            ]
+          },
+          {
+            "namespace": "App\\Controller",
+            "short_class": "AllergensController",
+            "class": "App\\Controller\\AllergensController",
+            "type": "->",
+            "function": "getDishesAllergensByName",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/HttpKernel.php",
+            "line": 150,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "string",
+                "Allergeno1"
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handleRaw",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/HttpKernel.php",
+            "line": 67,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "HttpKernel",
+            "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/Kernel.php",
+            "line": 198,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ],
+              [
+                "integer",
+                1
+              ],
+              [
+                "boolean",
+                true
+              ]
+            ]
+          },
+          {
+            "namespace": "Symfony\\Component\\HttpKernel",
+            "short_class": "Kernel",
+            "class": "Symfony\\Component\\HttpKernel\\Kernel",
+            "type": "->",
+            "function": "handle",
+            "file": "\/var\/www\/html\/api_restaurants\/public\/index.php",
+            "line": 25,
+            "args": [
+              [
+                "object",
+                "Symfony\\Component\\HttpFoundation\\Request"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
