@@ -228,7 +228,7 @@ class IngredientsController extends FOSRestController
     }
 
     /**
-     * @Rest\Put("/ingredients/{id}/addallergen/{name_allergen}.{_format}", name="ingredient_edit_add_allergen", defaults={"_format":"json"})
+     * @Rest\Put("/ingredients/{id}/addallergen/.{_format}", name="ingredient_edit_add_allergen", defaults={"_format":"json"})
      *
      * @SWG\Response(
      *     response=200,
@@ -247,17 +247,27 @@ class IngredientsController extends FOSRestController
      *     description="The ingredients ID"
      * )
      *
+     *@SWG\Parameter(
+     *     name="name_ingredient",
+     *     in="body",
+     *     type="string",
+     *     description="The Dishes name",
+     *     schema={}
+     * )
+     *
      * @SWG\Tag(name="Ingredients")
      */
-    public function editIngredientsAddAllegernAction(Request $request, $id, $name_allergen)
+    public function editIngredientsAddAllegernAction(Request $request, $id)
     {
+        $dataallergen = json_decode($request->getContent(), true);
+
         $serializer = $this->get('jms_serializer');
         try {
             $code = 200;
             $em = $this->getDoctrine()->getManager();
             $ingredient = $em->getRepository("App:Ingredients")->find($id);
             if (!is_null($ingredient)) {
-                $allergen = $this->existOrAddAllegern($name_allergen);
+                $allergen = $this->existOrAddAllegern($dataallergen['name']);
                 $ingredient->addAllergenToIngredient($allergen);
                 $em->persist($ingredient);
                 $em->flush();
@@ -272,7 +282,7 @@ class IngredientsController extends FOSRestController
     }
 
     /**
-     * @Rest\Put("/ingredients/{id}/removeallergen/{name_allergen}.{_format}", name="ingrdients_edit_remove_allergen", defaults={"_format":"json"})
+     * @Rest\Put("/ingredient/{id}/removeallergen/.{_format}", name="ingrdients_edit_remove_allergen", defaults={"_format":"json"})
      *
      * @SWG\Response(
      *     response=200,
@@ -290,18 +300,26 @@ class IngredientsController extends FOSRestController
      *     type="string",
      *     description="The Dishes ID"
      *     )
-     *
+     *@SWG\Parameter(
+     *     name="name_ingredient",
+     *     in="body",
+     *     type="string",
+     *     description="The Dishes name",
+     *     schema={}
+     * )
      * @SWG\Tag(name="Ingredients")
      */
-    public function editIngredientsRemoveAllergenAction(Request $request, $id, $name_allergen)
+    public function editIngredientsRemoveAllergenAction(Request $request, $id)
     {
+        $dataallergen = json_decode($request->getContent(), true);
+
         $serializer = $this->get('jms_serializer');
         try {
             $code = 200;
             $em = $this->getDoctrine()->getManager();
             $ingredient = $em->getRepository("App:Ingredients")->find($id);
             if (!is_null($ingredient)) {
-                $allergen = $em->getRepository("App:Allergens")->findOneBy(['name' => $name_allergen]);
+                $allergen = $em->getRepository("App:Allergens")->findOneBy(['name' => $dataallergen['allergen']]);
                 if(!is_null($allergen)) {
                     $ingredient->removeIngredientsToDishes($allergen);
                     $em->persist($ingredient);

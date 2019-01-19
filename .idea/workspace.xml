@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8ba259a-36a5-425d-ace8-6a7f554a9b50" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T120644.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T120750.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T121132.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T121215.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T121449.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T121744.500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T121824.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T121846.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T121914.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T122142.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T122200.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T123740.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DishesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DishesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/IngredientsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/IngredientsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Dishes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Dishes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Ingredients.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Ingredients.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/AllergensRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/AllergensRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/DishesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/DishesTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/IngredientsControllerTest.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../backend-api/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend-api/.idea/backend-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend-api/.idea/backend-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend-api/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/../backend-api/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
@@ -297,11 +280,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/DishesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="852">
-              <caret line="395" column="5" selection-start-line="395" selection-start-column="5" selection-end-line="395" selection-end-column="5" />
+            <state relative-caret-position="135">
+              <caret line="181" column="60" selection-start-line="181" selection-start-column="60" selection-end-line="181" selection-end-column="60" />
               <folding>
                 <element signature="e#34#59#0#PHP" expanded="true" />
                 <element signature="e#798#1179#0#PHP" />
@@ -309,14 +292,9 @@
                 <element signature="e#1919#2514#0#PHP" />
                 <element signature="e#2519#3351#0#PHP" />
                 <element signature="e#3357#3925#0#PHP" />
-                <element signature="e#3930#5267#0#PHP" />
-                <element signature="e#5273#6004#0#PHP" />
-                <element signature="e#6009#7054#0#PHP" />
-                <element signature="e#7060#7796#0#PHP" />
                 <element signature="e#7823#8761#0#PHP" />
-                <element signature="e#8762#9364#0#PHP" />
                 <element signature="e#9532#10593#0#PHP" />
-                <element signature="e#11659#12277#0#PHP" />
+                <element signature="e#11156#12063#0#PHP" />
                 <element signature="e#12692#13803#0#PHP" />
                 <element signature="e#13810#14568#0#PHP" />
                 <element signature="e#14574#15005#0#PHP" />
@@ -326,19 +304,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/IngredientsTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+              <folding>
+                <element signature="e#112#153#0#PHP" expanded="true" />
+                <element signature="e#281#337#0#PHP" />
+                <element signature="e#681#748#0#PHP" />
+                <element signature="e#754#812#0#PHP" />
+                <element signature="e#818#873#0#PHP" />
+                <element signature="e#879#932#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/DishesTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="175">
+              <caret line="110" column="61" lean-forward="true" selection-start-line="96" selection-start-column="8" selection-end-line="110" selection-end-column="61" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
                 <element signature="e#90#112#0#PHP" expanded="true" />
-                <element signature="n#testGet#0;n#DishesTest#0;n#!!top" />
-                <element signature="n#testGetId#0;n#DishesTest#0;n#!!top" />
+                <element signature="n#testGetDishes#0;n#DishesTest#0;n#!!top" />
+                <element signature="n#testGetDishesById#0;n#DishesTest#0;n#!!top" />
                 <element signature="n#testAddDishes#0;n#DishesTest#0;n#!!top" />
-                <element signature="e#1078#1468#0#PHP" />
+                <element signature="n#testEditDishes#0;n#DishesTest#0;n#!!top" />
                 <element signature="n#testEditDishesAddIngredients#0;n#DishesTest#0;n#!!top" />
-                <element signature="n#testEditDishesRemoveIngredients#0;n#DishesTest#0;n#!!top" />
+                <element signature="n#testGetAllergensDishesById#0;n#DishesTest#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controller/IngredientsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="323" column="47" lean-forward="true" selection-start-line="323" selection-start-column="47" selection-end-line="323" selection-end-column="47" />
+              <folding>
+                <element signature="e#1238#2006#0#PHP" />
+                <element signature="e#2642#3519#0#PHP" />
               </folding>
             </state>
           </provider>
@@ -405,10 +413,12 @@
         <option value="restClient/response21.txt" />
         <option value="restClient/response24.txt" />
         <option value="restClient/response27.txt" />
-        <option value="$PROJECT_DIR$/src/Controller/IngredientsController.php" />
         <option value="$PROJECT_DIR$/src/Repository/AllergensRepository.php" />
         <option value="$PROJECT_DIR$/src/Controller/DishesController.php" />
         <option value="$PROJECT_DIR$/tests/DishesTest.php" />
+        <option value="$PROJECT_DIR$/tests/IngredientsControllerTest.php" />
+        <option value="$PROJECT_DIR$/tests/IngredientsTest.php" />
+        <option value="$PROJECT_DIR$/src/Controller/IngredientsController.php" />
       </list>
     </option>
   </component>
@@ -562,6 +572,17 @@
             <path>
               <item name="api_restaurants" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_restaurants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_restaurants" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_restaurants" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_restaurants" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_restaurants" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1898,7 +1919,7 @@
       <workItem from="1547659739330" duration="40297000" />
       <workItem from="1547772739795" duration="28000" />
       <workItem from="1547806208491" duration="26093000" />
-      <workItem from="1547895922003" duration="19038000" />
+      <workItem from="1547895922003" duration="21412000" />
     </task>
     <servers />
   </component>
@@ -1908,7 +1929,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85456000" />
+    <option name="totallyTimeSpent" value="87830000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1924,10 +1945,10 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50457036" side_tool="true" weight="0.27773345" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4954296" visible="true" weight="0.27773345" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4954296" visible="true" weight="0.19313647" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="0" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49960095" visible="true" weight="0.41530946" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49960095" visible="true" weight="0.5081433" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50039905" side_tool="true" weight="0.4397394" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32899022" />
@@ -2161,17 +2182,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/IngredientsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="369" selection-start-line="369" selection-end-line="369" />
-          <folding>
-            <element signature="e#1238#2006#0#PHP" />
-            <element signature="e#2642#3519#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Ingredients.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -2217,27 +2227,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/DishesTest.php">
+    <entry file="file://$PROJECT_DIR$/tests/IngredientsTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <element signature="e#90#112#0#PHP" expanded="true" />
-            <element signature="n#testGet#0;n#DishesTest#0;n#!!top" />
-            <element signature="n#testGetId#0;n#DishesTest#0;n#!!top" />
-            <element signature="n#testAddDishes#0;n#DishesTest#0;n#!!top" />
-            <element signature="e#1078#1468#0#PHP" />
-            <element signature="n#testEditDishesAddIngredients#0;n#DishesTest#0;n#!!top" />
-            <element signature="n#testEditDishesRemoveIngredients#0;n#DishesTest#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/DishesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="852">
-          <caret line="395" column="5" selection-start-line="395" selection-start-column="5" selection-end-line="395" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="181" column="60" selection-start-line="181" selection-start-column="60" selection-end-line="181" selection-end-column="60" />
           <folding>
             <element signature="e#34#59#0#PHP" expanded="true" />
             <element signature="e#798#1179#0#PHP" />
@@ -2245,17 +2245,55 @@
             <element signature="e#1919#2514#0#PHP" />
             <element signature="e#2519#3351#0#PHP" />
             <element signature="e#3357#3925#0#PHP" />
-            <element signature="e#3930#5267#0#PHP" />
-            <element signature="e#5273#6004#0#PHP" />
-            <element signature="e#6009#7054#0#PHP" />
-            <element signature="e#7060#7796#0#PHP" />
             <element signature="e#7823#8761#0#PHP" />
-            <element signature="e#8762#9364#0#PHP" />
             <element signature="e#9532#10593#0#PHP" />
-            <element signature="e#11659#12277#0#PHP" />
+            <element signature="e#11156#12063#0#PHP" />
             <element signature="e#12692#13803#0#PHP" />
             <element signature="e#13810#14568#0#PHP" />
             <element signature="e#14574#15005#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/DishesTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="110" column="61" lean-forward="true" selection-start-line="96" selection-start-column="8" selection-end-line="110" selection-end-column="61" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <element signature="e#90#112#0#PHP" expanded="true" />
+            <element signature="n#testGetDishes#0;n#DishesTest#0;n#!!top" />
+            <element signature="n#testGetDishesById#0;n#DishesTest#0;n#!!top" />
+            <element signature="n#testAddDishes#0;n#DishesTest#0;n#!!top" />
+            <element signature="n#testEditDishes#0;n#DishesTest#0;n#!!top" />
+            <element signature="n#testEditDishesAddIngredients#0;n#DishesTest#0;n#!!top" />
+            <element signature="n#testGetAllergensDishesById#0;n#DishesTest#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/IngredientsTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="e#112#153#0#PHP" expanded="true" />
+            <element signature="e#281#337#0#PHP" />
+            <element signature="e#681#748#0#PHP" />
+            <element signature="e#754#812#0#PHP" />
+            <element signature="e#818#873#0#PHP" />
+            <element signature="e#879#932#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/IngredientsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="323" column="47" lean-forward="true" selection-start-line="323" selection-start-column="47" selection-end-line="323" selection-end-column="47" />
+          <folding>
+            <element signature="e#1238#2006#0#PHP" />
+            <element signature="e#2642#3519#0#PHP" />
           </folding>
         </state>
       </provider>
