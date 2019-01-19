@@ -122,7 +122,7 @@ class IngredientsController extends FOSRestController
      *
      * @SWG\Response(
      *     response=201,
-     *     description="Imgredients was added successfully"
+     *     description="Ingredients was added successfully"
      * )
      *
      * @SWG\Response(
@@ -130,29 +130,41 @@ class IngredientsController extends FOSRestController
      *     description="An error was occurred trying to add new ingredients"
      * )
      *
+     * @SWG\Parameter(
+     *     name="Json",
+     *     in="body",
+     *     type="string",
+     *     description="The dishes name",
+     *     schema={}
+     * )
+     * )
      * @SWG\Tag(name="Ingredients")
+     *
      */
-    public function addIngredientsAction(Request $request) {
+    public function addIngredientAction(Request $request) {
         $serializer = $this->get('jms_serializer');
         $em = $this->getDoctrine()->getManager();
         $ingredient = new Ingredients();
         $message = "";
-        $dataIngredients = json_decode($request->getContent(), true);
+        $dataIngredient = json_decode($request->getContent(), true);
 
         try {
             $code = 201;
-            foreach ($dataIngredients as $dataproperty => $valueIngredients) {
+            foreach ($dataIngredient as $dataproperty => $valueIngredient) {
                 if (property_exists(Ingredients::class, $dataproperty) && method_exists(Ingredients::class, $setmetodo = 'set' . ucfirst($dataproperty))) {
-                    $ingredient->$setmetodo($valueIngredients);
+                    $ingredient->$setmetodo($valueIngredient);
                 }
                 if($dataproperty === "ingredientsAllergens") {
-
-                    $allergen= $this->addAllergen($valueIngredients);
-                    $ingredient->addAllergenToIngredient($allergen);
+                    if (is_array($valueIngredient)) {
+                        foreach ($valueIngredient as $allergenProperty) {
+                            $allergens = $this->existOrAddAllegern($allergenProperty['name']);
+                            $ingredient->addAllergenToIngredient($allergens);
+                        }
+                    }
                 }
-
             }
             $em->persist($ingredient);
+
             $em->flush();
 
         } catch (Exception $ex) {
@@ -204,7 +216,6 @@ class IngredientsController extends FOSRestController
             }
             $em->persist($ingredients);
             $em->flush();
-
 
         } catch (Exception $ex) {
             $message = "An error has occurred trying to edit the current dishes - Error: {$ex->getMessage()}";
@@ -309,7 +320,7 @@ class IngredientsController extends FOSRestController
     }
 
     /**
-     * @Rest\Delete("/ingredient/{id}.{_format}", name="dishes_remove", defaults={"_format":"json"})
+     * @Rest\Delete("/ingredient/{id}.{_format}", name="ingredients_remove", defaults={"_format":"json"})
      *
      * @SWG\Response(
      *     response=200,
@@ -358,14 +369,6 @@ class IngredientsController extends FOSRestController
     }
 
 
-
-    private  function addAllergen(array $allergensAdd)
-    {
-        foreach ($allergensAdd as $allergenProperty) {
-            return $this->existOrAddAllegern($allergenProperty['name']);
-        }
-    }
-
     private function existOrAddAllegern($name_allergen)
     {
         $em = $this->getDoctrine()->getManager();
@@ -373,8 +376,8 @@ class IngredientsController extends FOSRestController
         if (is_null($allergen)) {
             $allergen = new Allergens();
             $allergen->setName($name_allergen);
+           $em->persist($allergen);
         }
-        $em->persist($allergen);
         return $allergen;
     }
 }

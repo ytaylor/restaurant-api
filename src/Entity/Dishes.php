@@ -21,7 +21,7 @@ class Dishes
 
     /**
      * Many Dishes have Many Ingredients.
-     * @ORM\ManyToMany(targetEntity="Ingredients")
+     * @ORM\ManyToMany(targetEntity="Ingredients", cascade={"persist"})
      * @ORM\JoinTable(name="dishes_ingredients",
      *      joinColumns={@ORM\JoinColumn(name="dishes_id", referencedColumnName="id")},
      *      inverseJoinColumns={@ORM\JoinColumn(name="ingredients_id", referencedColumnName="id")}

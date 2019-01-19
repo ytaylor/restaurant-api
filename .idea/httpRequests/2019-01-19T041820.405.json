@@ -1,11 +1,11 @@
 {
   "error": {
-    "code": 404,
-    "message": "Not Found",
+    "code": 405,
+    "message": "Method Not Allowed",
     "exception": [
       {
-        "message": "No route found for \"GET \/api\/allergens\"",
-        "class": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
+        "message": "No route found for \"POST \/api\/ingredients\/add\": Method Not Allowed (Allow: PUT)",
+        "class": "Symfony\\Component\\HttpKernel\\Exception\\MethodNotAllowedHttpException",
         "trace": [
           {
             "namespace": "",
@@ -14,7 +14,7 @@
             "type": "",
             "function": "",
             "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/http-kernel\/EventListener\/RouterListener.php",
-            "line": 139,
+            "line": 143,
             "args": []
           },
           {
@@ -218,7 +218,7 @@
       },
       {
         "message": "",
-        "class": "Symfony\\Component\\Routing\\Exception\\ResourceNotFoundException",
+        "class": "Symfony\\Component\\Routing\\Exception\\MethodNotAllowedException",
         "trace": [
           {
             "namespace": "",
@@ -227,7 +227,7 @@
             "type": "",
             "function": "",
             "file": "\/var\/www\/html\/api_restaurants\/vendor\/symfony\/routing\/Matcher\/Dumper\/PhpMatcherTrait.php",
-            "line": 67,
+            "line": 39,
             "args": []
           },
           {
@@ -241,7 +241,7 @@
             "args": [
               [
                 "string",
-                "\/api\/allergens\/"
+                "\/api\/ingredients\/add"
               ]
             ]
           },

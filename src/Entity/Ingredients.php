@@ -80,6 +80,15 @@ class Ingredients
         return $this;
     }
 
+
+    public  function  addAllergensToIngredient($allergens){
+        foreach ($allergens as $allergen)
+        {
+            $this->ingredientsAllergens[] = $allergen;
+        }
+        return $this;
+    }
+
     /**
      * Remove allergen to ingredients
      *

@@ -1,3 +1,123 @@
+POST http://127.0.0.1:8000/api/ingredients/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{"name": "Yanelis555", 		"ingredientsAllergens": [{ 			"name": "Yanelis678" 		}, { 			"name": "Yanelis500" 		}] 	}
+
+<> 2019-01-19T050554.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/ingredients/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{"name": "Yanelis55", 		"ingredientsAllergens": [{ 			"name": "Yanelis67" 		}, { 			"name": "Yanelis50" 		}] 	}
+
+<> 2019-01-19T050455.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/ingredients/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{"name": "Yanelis4", 		"ingredientsAllergens": [{ 			"name": "Yanelis5" 		}, { 			"name": "Yanelis6" 		}] 	}
+
+<> 2019-01-19T050325.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/ingredients/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{"name": "Yanelis", 		"ingredientsAllergens": [{ 			"name": "Yanelis 2" 		}, { 			"name": "Yanelis3" 		}] 	}
+
+<> 2019-01-19T043156.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/ingredients/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{"name": "Thhhggggklkl", 		"ingredientsAllergens": [{ 			"name": "se me estalkl pasand hhho" 		}, { 			"name": "pero nhjhjo te hablo enhghn jjj todo el dia" 		}] 	}
+
+<> 2019-01-19T042659-1.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/ingredients/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{"name": "Thhhggggklkl", 		"ingredientsAllergens": [{ 			"name": "se me estalkl pasand hhho" 		}, { 			"name": "pero nhjhjo te hablo enhghn jjj todo el dia" 		}] 	}
+
+<> 2019-01-19T042659.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/ingredients/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{"name": "Thhhggggklkl", 		"ingredientsAllergens": [{ 			"name": "se me estalkl pasand hhho" 		}, { 			"name": "pero nhjhjo te hablo enhghn jjj todo el dia" 		}] 	}
+
+<> 2019-01-19T042658.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/ingredients/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{"name": "Thhhggggklkl", 		"ingredientsAllergens": [{ 			"name": "se me estalkl pasand hhho" 		}, { 			"name": "pero nhjhjo te hablo enhghn jjj todo el dia" 		}] 	}
+
+<> 2019-01-19T042655.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/ingredients/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{"name": "Thhhggggklkl", 		"ingredientsAllergens": [{ 			"name": "se me estalkl pasand hhho" 		}, { 			"name": "pero nhjhjo te hablo enhghn jjj todo el dia" 		}] 	}
+
+<> 2019-01-19T042107.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/ingredients/add/?=
+Accept: */*
+Cache-Control: no-cache
+
+{"name": "Thhhgggg", 		"ingredientsAllergens": [{ 			"name": "se me esta pasand hhho" 		}, { 			"name": "pero no te hablo enhghn jjj todo el dia" 		}] 	}
+
+<> 2019-01-19T041922.200.json
+
+###
+
+POST http://127.0.0.1:8000/api/ingredients/add?=
+Accept: */*
+Cache-Control: no-cache
+
+{"name": "Thhhgggg", 		"ingredientsAllergens": [{ 			"name": "se me esta pasand hhho" 		}, { 			"name": "pero no te hablo enhghn jjj todo el dia" 		}] 	}
+
+<> 2019-01-19T041820.405.json
+
+###
+
+POST http://127.0.0.1:8000/api/ingredients/add?=
+Accept: */*
+Cache-Control: no-cache
+
+{"name": "Thhhgggg", 		"ingredientsAllergens": [{ 			"name": "se me esta pasand hhho" 		}, { 			"name": "pero no te hablo enhghn jjj todo el dia" 		}] 	}
+
+<> 2019-01-19T041819.405.json
+
+###
+
 GET http://127.0.0.1:8000/api/allergens/Allergeno1/dishes?=
 Accept: */*
 Cache-Control: no-cache
@@ -315,126 +435,6 @@ Cache-Control: no-cache
 { 	"name": "Ingrediente7", 	"ingredientsAllergens": [{ 		"name": "Allergeno1" 	}, { 		"name": "Allergeno2" 	}] }
 
 <> 2019-01-18T123800.404.json
-
-###
-
-GET http://127.0.0.1:8000/api/dishes/9/allergens?=
-Accept: */*
-Cache-Control: no-cache
-
-{ 	"name": "Ingrediente7", 	"ingredientsAllergens": [{ 		"name": "Allergeno1" 	}, { 		"name": "Allergeno2" 	}] }
-
-<> 2019-01-18T123740.404.json
-
-###
-
-GET http://127.0.0.1:8000/api/allergens?=
-Accept: */*
-Cache-Control: no-cache
-
-{ 	"name": "Ingrediente7", 	"ingredientsAllergens": [{ 		"name": "Allergeno1" 	}, { 		"name": "Allergeno2" 	}] }
-
-<> 2019-01-18T122200.200.json
-
-###
-
-GET http://127.0.0.1:8000/api/allergens?=
-Accept: */*
-Cache-Control: no-cache
-
-{ 	"name": "Ingrediente7", 	"ingredientsAllergens": [{ 		"name": "Allergeno1" 	}, { 		"name": "Allergeno2" 	}] }
-
-<> 2019-01-18T122142.404.json
-
-###
-
-GET http://127.0.0.1:8000/api/allergens?=
-Accept: */*
-Cache-Control: no-cache
-
-{ 	"name": "Ingrediente7", 	"ingredientsAllergens": [{ 		"name": "Allergeno1" 	}, { 		"name": "Allergeno2" 	}] }
-
-<> 2019-01-18T121914.404.json
-
-###
-
-DELETE http://127.0.0.1:8000/api/allergens?=
-Accept: */*
-Cache-Control: no-cache
-
-{ 	"name": "Ingrediente7", 	"ingredientsAllergens": [{ 		"name": "Allergeno1" 	}, { 		"name": "Allergeno2" 	}] }
-
-<> 2019-01-18T121846.404.json
-
-###
-
-DELETE http://127.0.0.1:8000/api/allergens?=
-Accept: */*
-Cache-Control: no-cache
-
-{ 	"name": "Ingrediente7", 	"ingredientsAllergens": [{ 		"name": "Allergeno1" 	}, { 		"name": "Allergeno2" 	}] }
-
-<> 2019-01-18T121824.500.json
-
-###
-
-DELETE http://127.0.0.1:8000/api/allergens?=
-Accept: */*
-Cache-Control: no-cache
-
-{ 	"name": "Ingrediente7", 	"ingredientsAllergens": [{ 		"name": "Allergeno1" 	}, { 		"name": "Allergeno2" 	}] }
-
-<> 2019-01-18T121744.500.html
-
-###
-
-DELETE http://127.0.0.1:8000/api/ingredient/6?=
-Accept: */*
-Cache-Control: no-cache
-
-{ 	"name": "Ingrediente7", 	"ingredientsAllergens": [{ 		"name": "Allergeno1" 	}, { 		"name": "Allergeno2" 	}] }
-
-<> 2019-01-18T121449.200.json
-
-###
-
-PUT http://127.0.0.1:8000/api/ingredients/6/removeallergen/Allergeno2?=
-Accept: */*
-Cache-Control: no-cache
-
-{ 	"name": "Ingrediente7", 	"ingredientsAllergens": [{ 		"name": "Allergeno1" 	}, { 		"name": "Allergeno2" 	}] }
-
-<> 2019-01-18T121215.200.json
-
-###
-
-PUT http://127.0.0.1:8000/api/ingredients/6/removeallergen/Allergeno2?=
-Accept: */*
-Cache-Control: no-cache
-
-{ 	"name": "Ingrediente7", 	"ingredientsAllergens": [{ 		"name": "Allergeno1" 	}, { 		"name": "Allergeno2" 	}] }
-
-<> 2019-01-18T121132.500.json
-
-###
-
-PUT http://127.0.0.1:8000/api/ingredients/6/addallergen/Allergeno2?=
-Accept: */*
-Cache-Control: no-cache
-
-{ 	"name": "Ingrediente7", 	"ingredientsAllergens": [{ 		"name": "Allergeno1" 	}, { 		"name": "Allergeno2" 	}] }
-
-<> 2019-01-18T120750.200.json
-
-###
-
-PUT http://127.0.0.1:8000/api/ingredients/Ingrediente6/addallergen/Allergeno2?=
-Accept: */*
-Cache-Control: no-cache
-
-{ 	"name": "Ingrediente7", 	"ingredientsAllergens": [{ 		"name": "Allergeno1" 	}, { 		"name": "Allergeno2" 	}] }
-
-<> 2019-01-18T120644.200.json
 
 ###
 

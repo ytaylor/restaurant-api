@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\Allergens;
 use App\Entity\Dishes;
 use App\Entity\Ingredients;
 use App\Form\DishesType;
@@ -154,9 +155,10 @@ class DishesController extends FOSRestController
                 }
 
                 if($dataproperty === "dishesIngredients") {
-
-                    $ingredient= $this->addIngredient($valueDishes);
-                    $dishes->addIngredientsToDishes($ingredient);
+                    foreach ($valueDishes as $ingredientProperty) {
+                        $ingredient= $this->existOrAddIngredient($ingredientProperty);
+                        $dishes->addIngredientsToDishes($ingredient);
+                    }
                 }
             }
             $em->persist($dishes);
@@ -234,7 +236,7 @@ class DishesController extends FOSRestController
     }
 
     /**
-     * @Rest\Put("/dishes/{id}/addingredient/{name_ingredient}.{_format}", name="dishes_edit_add_ingredient", defaults={"_format":"json"})
+     * @Rest\Put("/dishes/{id}/addingredient/.{_format}", name="dishes_edit_add_ingredient", defaults={"_format":"json"})
      *
      * @SWG\Response(
      *     response=200,
@@ -253,17 +255,26 @@ class DishesController extends FOSRestController
      *     description="The Dishes ID"
      * )
      *
+     * @SWG\Parameter(
+     *     name="name",
+     *     in="body",
+     *     type="string",
+     *     description="The dishes name",
+     *     schema={}
+     * )
+     *
      * @SWG\Tag(name="Dishes")
      */
-    public function editDishesAddIngredientsAction(Request $request, $id, $name_ingredient)
+    public function editDishesAddIngredientsAction(Request $request, $id)
     {
+        $dataIngredient = json_decode($request->getContent(), true);
         $serializer = $this->get('jms_serializer');
         try {
             $code = 200;
             $em = $this->getDoctrine()->getManager();
             $dishes = $em->getRepository("App:Dishes")->find($id);
             if (!is_null($dishes)) {
-                $ingredient = $this->existOrAddIngredient($name_ingredient);
+                $ingredient = $this->existOrAddIngredient($dataIngredient);
                 $dishes->addIngredientsToDishes($ingredient);
                 $em->persist($dishes);
                 $em->flush();
@@ -278,7 +289,7 @@ class DishesController extends FOSRestController
     }
 
     /**
-     * @Rest\Put("/dishes/{id}/removeingredient/{name_ingredient}.{_format}", name="dishes_edit_remove_ingredient", defaults={"_format":"json"})
+     * @Rest\Put("/dishes/{id}/removeingredient/.{_format}", name="dishes_edit_remove_ingredient", defaults={"_format":"json"})
      *
      * @SWG\Response(
      *     response=200,
@@ -297,19 +308,26 @@ class DishesController extends FOSRestController
      *     description="The Dishes ID"
      * )
      *
+     * @SWG\Parameter(
+     *     name="name",
+     *     in="body",
+     *     type="string",
+     *     description="The dishes name",
+     *     schema={}
      * )
      *
      * @SWG\Tag(name="Dishes")
      */
-    public function editDishesRemoveIngredientsAction(Request $request, $id, $name_ingredient)
+    public function editDishesRemoveIngredientsAction(Request $request, $id)
     {
+        $dataIngredient = json_decode($request->getContent(), true);
         $serializer = $this->get('jms_serializer');
         try {
             $code = 200;
             $em = $this->getDoctrine()->getManager();
             $dishes = $em->getRepository("App:Dishes")->find($id);
             if (!is_null($dishes)) {
-                $ingredient = $em->getRepository("App:Ingredients")->findOneBy(['name' => $name_ingredient]);
+                $ingredient = $em->getRepository("App:Ingredients")->findOneBy(['name' => $dataIngredient['name']]);
                 if(!is_null($ingredient)) {
                     $dishes->removeIngredientsToDishes($ingredient);
                     $em->persist($dishes);
@@ -428,28 +446,39 @@ class DishesController extends FOSRestController
         $response = [
             'data' => $code == 200 ? $allergens : $message,
         ];
-
         return new Response($serializer->serialize($response, "json"));
     }
 
 
-
-    private  function addIngredient(array $ingredientsAdd)
-    {
-        foreach ($ingredientsAdd as $ingredientsProperty) {
-            return $this->existOrAddIngredient($ingredientsProperty['name']);
-        }
-    }
-
-    private function existOrAddIngredient($name_ingredient)
+    private function existOrAddIngredient($ingredientExist)
     {
         $em = $this->getDoctrine()->getManager();
-        $ingredient = $em->getRepository("App:Ingredients")->findOneBy(['name' => $name_ingredient]);
+        $ingredient = $em->getRepository("App:Ingredients")->findOneBy(['name' => $ingredientExist['name']]);
         if (is_null($ingredient)) {
             $ingredient = new Ingredients();
-            $ingredient->setName($name_ingredient);
+            $ingredient->setName($ingredientExist['name']);
+            if (!empty($ingredientExist['ingredientsAllergens'])) {
+                foreach ($ingredientExist['ingredientsAllergens'] as $allergen) {
+                    $ingredient->addAllergenToIngredient($this->existOrAddAllergen($allergen['name']));
+
+                }
+            }
+            $em->persist($ingredient);
+            $em->flush();
         }
-        $em->persist($ingredient);
         return $ingredient;
+    }
+
+    private function existOrAddAllergen($allergen_name)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $allergen = $em->getRepository("App:Allergens")->findOneBy(['name' => $allergen_name]);
+        if (is_null($allergen)) {
+            $allergen = new Allergens();
+            $allergen->setName($allergen_name);
+            $em->persist($allergen);
+            $em->flush();
+        }
+        return $allergen;
     }
 }

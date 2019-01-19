@@ -29,12 +29,12 @@ class AllergensRepository extends ServiceEntityRepository
         $conn = $this->getEntityManager()->getConnection();
 
         $sql = '
-        select distinct dishes.name
+        select distinct * 
 from dishes
-join dishes_ingredients on dishes_ingredients.dishes_id = dishes.id
-join ingredients on dishes_ingredients.ingredients_id = ingredients_id 
-join ingredients_allergens on ingredients_allergens.ingredients_id = ingredients.id
-join allergens on ingredients_allergens.allergens_id = allergens.id
+inner join dishes_ingredients on dishes.id = dishes_ingredients.dishes_id 
+inner join ingredients on dishes_ingredients.ingredients_id = ingredients.id
+inner join ingredients_allergens on ingredients_allergens.ingredients_id = ingredients.id
+inner join allergens on ingredients_allergens.allergens_id = allergens.id
 where allergens.name = :allergen';
         $stmt = $conn->prepare($sql);
         $stmt->execute(['allergen' => $allergen]);
