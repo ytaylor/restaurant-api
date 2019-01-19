@@ -37,7 +37,7 @@ class AllergensController extends FOSRestController
      *
      * @SWG\Tag(name="Allergens")
      */
-    public function getIngredientsAction(Request $request)
+    public function getAllergensAction(Request $request)
     {
         $serializer = $this->get('jms_serializer');
         $em = $this->getDoctrine()->getManager();

@@ -29,7 +29,7 @@ class AllergensRepository extends ServiceEntityRepository
         $conn = $this->getEntityManager()->getConnection();
 
         $sql = '
-        select distinct * 
+        select distinct dishes.name 
 from dishes
 inner join dishes_ingredients on dishes.id = dishes_ingredients.dishes_id 
 inner join ingredients on dishes_ingredients.ingredients_id = ingredients.id
