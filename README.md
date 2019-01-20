@@ -16,3 +16,4 @@ Las tecnologías a usar son PHP y MySQL utilizando el framework Symfony4 para el
 4. sensio/framework-extra-bundle: Bundle necesario por FOSRestBundle para el soporte de rutas.
 5. nelmio/api-doc-bundle: Bundle para generar documentación de nuestro RESTful API.
 
+## Modelado de la solución
