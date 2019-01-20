@@ -14,8 +14,10 @@ class AppFixtures extends Fixture
 {
     public function load(ObjectManager $manager)
     {
+
+
         //Insert allergens
-        for ($i = 1; $i < 20; $i++) {
+        for ($i = 1; $i < 200; $i++) {
                 $allergen = new  Allergens();
                 $allergen->setName("Allergen".$i);
                 $manager->persist($allergen);
