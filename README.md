@@ -55,6 +55,8 @@ DATABASE_URL=mysql://root:pass@127.0.0.1:3306/api_restuarants_bd
 3. Craer la bases y todas sus entidades
 ```
 php bin/console doctrine:database:create
+php bin/console make:migration
+php bin/console doctrine:migrations:migrate
 ```
 4. Llenar la bases de datos con valores de prueba  
 ```
