@@ -22,8 +22,8 @@ class IngredientsTest extends WebTestCase
     {
         $client = new GuzzleHttp\Client(['base_uri' => 'http://127.0.0.1:8000']);
         $resourceRemoveIngredient = [
-            "name"=> "Ingrediente58582",
-            "ingredientsAllergens"=> [["name"=>"Allegenoss"], ["name"=>"Allegenossii"]]
+            "name"=> "8732",
+            "ingredientsAllergens"=> [["name"=>"Gluten"], ["name"=>"Crustaceo"]]
         ];
         $encode= json_encode($resourceRemoveIngredient);
         $response = $client->request('PUT', '/api/ingredient/1152/removeallergen/', [
@@ -37,11 +37,11 @@ class IngredientsTest extends WebTestCase
     {
         $client = new GuzzleHttp\Client(['base_uri' => 'http://127.0.0.1:8000']);
         $resourceEditIngredient = [
-            "name"=> "Ingrediente58582",
-            "ingredientsAllergens"=> [["name"=>"Allegenoss"], ["name"=>"Allegenossii"]]
+            "name"=> "Pollo Asado",
+            "ingredientsAllergens"=> [["name"=>"Gluten"], ["name"=>"Crustaceo"]]
         ];
         $encode= json_encode($resourceEditIngredient);
-        $response = $client->request('PUT', '/api/ingredients/Ingrediente58582/', [
+        $response = $client->request('PUT', '/api/ingredients/Ingredient1/', [
             'body' => $encode]);
 
         $this->assertEquals(200, $response->getStatusCode());
@@ -51,8 +51,8 @@ class IngredientsTest extends WebTestCase
     {
         $client = new GuzzleHttp\Client(['base_uri' => 'http://127.0.0.1:8000']);
         $resourceNewIngredient = [
-                "name"=> "Ingrediente58582",
-                    "ingredientsAllergens"=> [["name"=>"Allegenoss"], ["name"=>"Allegenossii"]]
+            "name"=> "8732",
+            "ingredientsAllergens"=> [["name"=>"Gluten"], ["name"=>"Crustaceo"]]
         ];
         $encode= json_encode($resourceNewIngredient);
         $response = $client->request('POST', '/api/ingredients/add/', [
@@ -66,7 +66,7 @@ class IngredientsTest extends WebTestCase
         $client = new GuzzleHttp\Client(['base_uri' => 'http://127.0.0.1:8000']);
 
         $resourceNewIngredient =  [
-                "name"=> "glutenss"
+                "name"=> "Huevo"
         ];
 
         $encode= json_encode($resourceNewIngredient);

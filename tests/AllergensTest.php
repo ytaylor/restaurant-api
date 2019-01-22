@@ -17,7 +17,7 @@ class AllergensTest extends WebTestCase
 
     public function testGetDishesAllergensByName()
     {
-        $name = 'yo siempre pueod ';
+        $name = 'Allergen1';
         $client = new GuzzleHttp\Client(['base_uri'=>'http://127.0.0.1:8000']);
         $response = $client->request('GET','/api/allergens/'.$name.'/dishes/');
         $this->assertEquals(200, $response->getStatusCode());

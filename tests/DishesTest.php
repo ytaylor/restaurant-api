@@ -39,14 +39,15 @@ class DishesTest extends WebTestCase
     {
         $client = new GuzzleHttp\Client(['base_uri' => 'http://127.0.0.1:8000']);
         $resourceNewDishes = [
-            'name' => 'name4444',
-            'description' => 'description2',
-            'calories' => 'calories3',
-            'price' =>  2.5,
+            'name' => 'Pollo Asado',
+            'description' => 'Pollo asado con verduras y patatas',
+            'calories' => '350 kcl',
+            'price' =>  50.5,
             "dishesIngredients" => [
-                    ["name"=> "Ingrediente1",
-                        "ingredientsAllergens"=> [["name"=>"Allegenoss"], ["name"=>"Allegenossii"]]],
-                    ["name"=> "Ingrediente2"]]
+                    ["name"=> "Pollo",
+                        "ingredientsAllergens"=> [["name"=>"Gluten"], ["name"=>"Trazas de huevo"]]],
+                    ["name"=> "Verduras"],
+                    ["name"=>"Patatas"]]
         ];
 
         $encode= json_encode($resourceNewDishes);
@@ -59,13 +60,13 @@ class DishesTest extends WebTestCase
     public function testEditDishes(){
         $client = new GuzzleHttp\Client(['base_uri' => 'http://127.0.0.1:8000']);
         $resourceNewDishes = [
-            'name' => 'name2',
-            'description' => 'description2',
-            'calories' => 'calories3',
-            'price' =>  2.5,
+            'name' => 'Pollo Asado',
+            'description' => 'Pollo asado con verduras y patatas en vino blanco',
+            'calories' => '350 kcl',
+            'price' =>  50.5,
         ];
         $encode= json_encode($resourceNewDishes);
-        $response = $client->request('PUT', '/api/dishes/1152/', [
+        $response = $client->request('PUT', '/api/dishes/2867/', [
             'body' => $encode]);
 
         $this->assertEquals(200, $response->getStatusCode());
@@ -77,11 +78,11 @@ class DishesTest extends WebTestCase
         $client = new GuzzleHttp\Client(['base_uri' => 'http://127.0.0.1:8000']);
 
         $resourceNewIngredient =  [
-        "name"=> "Pollo asado 2",
+        "name"=> "Vino Blanco",
 		"ingredientsAllergens"=> [[
-            "name"=> "gluten"
+            "name"=> "Azufre"
 		], [
-            "name"=> "picazon "
+            "name"=> "Sulfitos"
 		]]
 ];
 
@@ -97,11 +98,11 @@ class DishesTest extends WebTestCase
         $client = new GuzzleHttp\Client(['base_uri' => 'http://127.0.0.1:8000']);
 
         $resourceRemoveIngredient =  [
-            "name"=> "Pollo asado ",
+            "name"=> "Vino Blanco",
             "ingredientsAllergens"=> [[
-                "name"=> "gluten"
+                "name"=> "Azufre"
             ], [
-                "name"=> "picazon "
+                "name"=> "Sulfitos"
             ]]
         ];
         $encode= json_encode($resourceRemoveIngredient);

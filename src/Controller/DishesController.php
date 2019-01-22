@@ -195,7 +195,7 @@ class DishesController extends FOSRestController
      * )
      *
      * @SWG\Parameter(
-     *     name="name",
+     *     name="request",
      *     in="body",
      *     type="string",
      *     description="The Dishes name",
