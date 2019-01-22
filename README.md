@@ -18,7 +18,7 @@ Las tecnologías utilizadas son PHP y MySQL utilizando el framework Symfony4. El
 
 ## Arquitectura del sistema
 
-La arquitectura del proyecto es la propia de un sistema Symfony, donde existe un desacoplamiento entre las capas del proyecto dado que se basa en el diseño web a tres capas MVC. 
+La arquitectura del proyecto se basa en el diseño web a tres capas Modelo Vista Controlador. 
  1. El modelo representa la información con la que trabaja la aplicación, resolviendo la lógica de negocio y el acceso a los datos
  2. La vista transforma el modelo en una página web, encargándose de la presentación visual de los datos.
  3. El controlador se encarga de procesar las peticiones del usuario, de decidir cual es la acción que se ejecutaráa continuación y de realizar los cambios en la vista y en el modelo  
