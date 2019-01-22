@@ -39,6 +39,8 @@ Para el modelado de la relaciones utilizando Doctrine se tomaron las siguientes 
 1. Actualizar todos los bundles a través del composer update.   
 ```
 composer update
+php bin/console assets:install --symlink
+
 ```
 2. Configurar la conexión para el acceso a la bases de datos. 
 ```
