@@ -66,6 +66,9 @@ Para acceder a la documentación generada del API Rest se accede a través de la
 ```
 http:// localhost:8000/api/doc
 ```
+
+![selection_001](https://user-images.githubusercontent.com/13947173/51533003-f42fed80-1e41-11e9-85b3-260841b30f65.png)
+
 Desde la documentación es posible ver todas las rutas para consultar el API y realizarle pruebas manuales a las funcionalidades. 
 
 ## Formato JSON que espera el API Rest. 
