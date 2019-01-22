@@ -42,7 +42,7 @@ composer update
 php bin/console assets:install --symlink
 
 ```
-2. Configurar la conexión para el acceso a la bases de datos. 
+2. Configurar la conexión para el acceso a la bases de datos. La información de conexión de la base de datos se almacena como una variable de entorno llamada DATABASE_URL. Personalizar esto dentro de .env: 
 ```
 DATABASE_URL=mysql://root:pass@127.0.0.1:3306/api_restuarants_bd
 ```
