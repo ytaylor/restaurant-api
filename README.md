@@ -114,3 +114,5 @@ Para probar las funcionalidades realizadas se implementaron pruebas unitarias, l
 ./vendor/bin/phpunit 
 
 ```
+
+Las pruebas funcionan correctamnete con los datos de prueba de la bases de datos, sino debe modificar los parametros de las rutas por datos que existan en su bases de datos. En caso de que no lo haga las funcionalidades de editar darán como error pues está intentando modificar datos que o no existen. 
