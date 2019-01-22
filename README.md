@@ -34,7 +34,7 @@ poner diagrama de clases
 Para el modelado de la relaciones utilizando Doctrine se tomaron las siguientes decisiones: 
 1.  Se considera una relación unidirecional donde  Dishes es el propietario de la relación Dishes-Ingredients, y Ingredients es el propietario de la relación Ingredients-Allergens. Esto implica que Dishes tiene facultad para persistir ingredientes en la bases de datos e ingrdients tiene facultad para persisitir allergenes. De esta manera es posible enviar una petición al API Rest donde Dishes contenga los ingredientes existan o no, y a su vez los ingredientes contengan allergens existan o no. 
 2. Es posible insertar ingredientes con sus alergenos. 
-3. No es possible insertar un alergeno sin que esté asociado a un ingrediente. 
+3. No es posible insertar un alergeno sin que esté asociado a un ingrediente. 
 
 ## Implementación
 
@@ -43,11 +43,30 @@ Para el modelado de la relaciones utilizando Doctrine se tomaron las siguientes 
 ### Fixtures Bundle
 
 ## Ejecutar el proyecto
-Para ejecutar el proyecto, primero es necesario a traves del comando composer update actualizar todos los bundles y posteriormente ejecutar el servidor.  
+
+1. Actualizar todos los bundles a través del composer update.   
 ```
 composer update
+```
+2. Configurar la conexión para el acceso a la bases de datos. 
+```
+DATABASE_URL=mysql://root:pass@127.0.0.1:3306/api_restuarants_bd
+```
+3. Craer la bases y todas sus entidades
+```
+php bin/console doctrine:database:create
+```
+4. Llenar la bases de datos con valores de prueba  
+```
+php bin/console doctrine:fixtures:load
+
+```
+5. Ejecutar el servidor.
+```
 php bin/console server:start
 ```
+
+Si desea cargar la bases de datos drectamnete, en este respositorio se encuentra el backup. En ese caso solo es necesario ejecutar los pasos 1,2 y 5. 
 
 ## Documentación del API Rest 
 Para acceder a la documentación generada del API Rest se accede a través de la siguiente dirección. 
