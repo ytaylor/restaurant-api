@@ -2,68 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8ba259a-36a5-425d-ace8-6a7f554a9b50" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/api_restaurants.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api_restaurants.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T014332.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T014332.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T014345.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T014345.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T014403.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T014403.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T014750.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T014750.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T014827.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T014827.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T014943.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T014943.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T015154.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T015154.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T020109.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T020109.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T020633.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T020633.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T020706.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T020706.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T020829.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T020829.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T020837.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T020837.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T020946.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T020946.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T022056.500.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T022056.500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T022135.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T022135.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T022241.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T022241.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T023049.500.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T023049.500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T023120.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T023120.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T023242.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T023242.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T023253.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T023253.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T023351.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T023351.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T023443.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T023443.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T123800.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T123800.404.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T123803.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T123803.404.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T123838.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T123838.404.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T123914.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T123914.404.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T123915.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T123915.404.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T123954.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T123954.404.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T124016.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T124016.404.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T124118.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T124118.404.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T124432.404.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T124432.404.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T124558.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T124558.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T124724.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T124724.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T124858.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T124858.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T124907.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T124907.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T124950.500.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T124950.500.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T125224.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T125224.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T125342.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-18T125342.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T041819.405.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T041819.405.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T041820.405.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T041820.405.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T041922.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T041922.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T042107.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T042107.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T042655.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T042655.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T042658.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T042658.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T042659-1.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T042659-1.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T042659.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T042659.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T043156.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T043156.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T050325.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T050325.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T050455.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T050455.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T050554.200.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/2019-01-19T050554.200.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20190118112403.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Migrations/Version20190118112403.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/AllergensTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AllergensTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/IngredientsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/IngredientsTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../backend-api/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend-api/.idea/backend-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend-api/.idea/backend-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend-api/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/../backend-api/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
@@ -324,6 +262,11 @@
       <change beforePath="$PROJECT_DIR$/../backend-api/web/images/recetas/58cebe5624c95.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend-api/web/info.php" beforeDir="false" afterPath="$PROJECT_DIR$/../backend-api/web/info.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend-api/web/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../backend-api/web/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -340,41 +283,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="375">
+              <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
               <folding>
                 <element signature="e#36#61#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../backend-api/app/DataFixtures/ORM/fixtures.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/bundles.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Dishes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -447,9 +363,9 @@
         <option value="$PROJECT_DIR$/config/packages/doctrine.yaml" />
         <option value="$PROJECT_DIR$/config/packages/dh_doctrine_audit.yaml" />
         <option value="$PROJECT_DIR$/config/packages/dev/hautelook_alice.yaml" />
-        <option value="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" />
         <option value="$PROJECT_DIR$/config/bundles.php" />
         <option value="$PROJECT_DIR$/src/Entity/Dishes.php" />
+        <option value="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" />
       </list>
     </option>
   </component>
@@ -606,51 +522,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="api_restaurants" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_restaurants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_restaurants" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_restaurants" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_restaurants" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_restaurants" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_restaurants" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_restaurants" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-api" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_restaurants" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-api" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="DataFixtures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_restaurants" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend-api" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="DataFixtures" type="462c0819:PsiDirectoryNode" />
-              <item name="ORM" type="462c0819:PsiDirectoryNode" />
+              <item name="restaurant_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restaurant_api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1985,6 +1868,7 @@
       <workItem from="1547806208491" duration="26093000" />
       <workItem from="1547895922003" duration="22704000" />
       <workItem from="1547929030427" duration="8892000" />
+      <workItem from="1548160217323" duration="1181000" />
     </task>
     <servers />
   </component>
@@ -1994,7 +1878,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98014000" />
+    <option name="totallyTimeSpent" value="99195000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2010,7 +1894,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50457036" side_tool="true" weight="0.27773345" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4954296" visible="true" weight="0.3256185" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4954296" visible="true" weight="0.3312051" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="0" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -2025,7 +1909,7 @@
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32899022" />
       <window_info anchor="bottom" id="REST Client" order="12" weight="0.49022803" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49960095" weight="0.44625407" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49960095" weight="0.31758958" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -2114,13 +1998,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/framework-bundle/Controller/ControllerTrait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="335" column="3" lean-forward="true" selection-start-line="335" selection-start-column="3" selection-end-line="335" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/framework-bundle/Controller/ControllerTrait.php" />
     <entry file="file://$PROJECT_DIR$/../backend-api/tests/DietaBundle/Controller/DietaControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -2341,13 +2219,7 @@
     <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/dh_doctrine_audit.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/dh_doctrine_audit.yaml" />
     <entry file="file://$PROJECT_DIR$/config/packages/cache.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2359,30 +2231,7 @@
     <entry file="file://$PROJECT_DIR$/../backend-api/app/DataFixtures/ORM/FriendsProcessor.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../backend-api/app/DataFixtures/ORM/fixtures.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/dev/hautelook_alice.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#36#61#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/dev/hautelook_alice.yaml" />
     <entry file="file://$PROJECT_DIR$/config/bundles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -2392,8 +2241,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Dishes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state relative-caret-position="283">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../backend-api/app/DataFixtures/ORM/fixtures.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+          <folding>
+            <element signature="e#36#61#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

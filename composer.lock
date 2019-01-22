@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "damienharper/doctrine-audit-bundle",
-            "version": "1.2.2",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DamienHarper/DoctrineAuditBundle.git",
-                "reference": "1a78a3c858d66387be946535434f38a627a270b5"
+                "reference": "2068c514b584522ca7807709cc78a1f8e5440f2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DamienHarper/DoctrineAuditBundle/zipball/1a78a3c858d66387be946535434f38a627a270b5",
-                "reference": "1a78a3c858d66387be946535434f38a627a270b5",
+                "url": "https://api.github.com/repos/DamienHarper/DoctrineAuditBundle/zipball/2068c514b584522ca7807709cc78a1f8e5440f2c",
+                "reference": "2068c514b584522ca7807709cc78a1f8e5440f2c",
                 "shasum": ""
             },
             "require": {
@@ -46,7 +46,7 @@
                 "Audit",
                 "doctrine"
             ],
-            "time": "2019-01-15T22:06:02+00:00"
+            "time": "2019-01-21T09:09:14+00:00"
         },
         {
             "name": "data-dog/audit-bundle",

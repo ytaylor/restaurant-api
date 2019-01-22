@@ -20,6 +20,7 @@ class AppFixtures extends Fixture
         for ($i = 1; $i < 200; $i++) {
                 $allergen = new  Allergens();
                 $allergen->setName("Allergen".$i);
+                $this->addReference('allergen'.$i, $allergen);
                 $manager->persist($allergen);
                 $manager->flush();
         }
@@ -29,9 +30,10 @@ class AppFixtures extends Fixture
             $ingredient = new Ingredients();
             $ingredient->setName("Ingredient" . $j);
             for ($k = 1; $k < 10; $k++) {
-                $allergen = $manager->getRepository("App:Allergens")->findOneBy(['name' => "Allergen" . $k]);
+                $allergen = $this->getReference('allergen'.$k);
                 $ingredient->addAllergenToIngredient($allergen);
             }
+            $this->addReference('ingredient'.$j, $ingredient);
             $manager->persist($ingredient);
             $manager->flush();
         }
@@ -45,7 +47,7 @@ class AppFixtures extends Fixture
             $dishes->setCalories('calories' . $i);
 
             for ($j = 1; $j < 10; $j++) {
-                $ingredient = $manager->getRepository("App:Ingredients")->findOneBy(['name' => "Ingredient".$j]);
+                $ingredient =  $this->getReference('ingredient'.$j);
                 $dishes->addIngredientsToDishes($ingredient);
             }
             $manager->persist($dishes);
